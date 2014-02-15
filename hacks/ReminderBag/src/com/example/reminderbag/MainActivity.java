@@ -3,8 +3,6 @@ package com.example.reminderbag;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
 import java.util.Set;
 import java.util.UUID;
 
@@ -12,10 +10,14 @@ import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
+import android.content.BroadcastReceiver;
 import android.content.Context;
+import android.content.Intent;
+import android.content.IntentFilter;
+import android.content.SharedPreferences;
 import android.os.Bundle;
-import android.os.ParcelUuid;
 import android.telephony.PhoneStateListener;
+import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.Menu;
@@ -37,6 +39,12 @@ public class MainActivity extends Activity {
 		TelephonyManager tm = (TelephonyManager) getApplicationContext().getSystemService(Context.TELEPHONY_SERVICE);
 		CallStateListener callStateListener = new CallStateListener(); 
 		tm.listen(callStateListener, PhoneStateListener.LISTEN_CALL_STATE);
+		
+		SmsListener sl = new SmsListener();
+		IntentFilter sms_filter = new IntentFilter();
+		sms_filter.addAction("android.povider.Telephony.SMS_RECEIVED");
+		getApplicationContext().registerReceiver(sl, sms_filter);
+		
 		/*	if (call_happening_now) {
 				Toast.makeText(getApplicationContext(), "Call happening", Toast.LENGTH_LONG).show();
 			Set<BluetoothDevice> pairedDevices = bta.getBondedDevices();
@@ -147,7 +155,7 @@ public class MainActivity extends Activity {
 	        
 	        ConnectedThread ct = new ConnectedThread(mmSocket);
 	        byte[] buffer = new byte[1024];
-	        buffer[0] = 'a';
+	        buffer[0] = 'b';
 	        ct.write(buffer);
 	        Log.d("DEBUG", "WHat the hell is going on");
 	    }
@@ -185,7 +193,7 @@ public class MainActivity extends Activity {
 	 
 	    public void run() {
 	        byte[] buffer = new byte[1024];  // buffer store for the stream
-	        int bytes; // bytes returned from read()
+	       
 	 
 	        // Keep listening to the InputStream until an exception occurs
 	        while (true) {
@@ -255,5 +263,5 @@ public class MainActivity extends Activity {
 	      }
 	  }
 	}
-	
+
 }
