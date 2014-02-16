@@ -18,18 +18,20 @@ import android.widget.Toast;
 
 
 public class CreateActivity extends Activity {
-	public HashMap<String, String> priority_list= new HashMap<String, String>();
-	public HashMap<String, String> ignore_list;
+	//public HashMap<String, String> priority_list= new HashMap<String, String>();
 	public static final int PICK_CONTACT = 1;
-
+	//public HashMap<String, String> priority_map;
+	String type = "";
+	
 	@SuppressWarnings("unchecked")
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.create_list);
-
-		Bundle b = getIntent().getExtras();
-		priority_list = (HashMap<String, String>) b.getSerializable("map");
+		type = getIntent().getCharSequenceExtra("map").toString();
+		
+		//getIntent().getExtras();
+		//MainActivity.priority_map = (HashMap<String, String>) b.getSerializable("map");
 		
 		Button add = (Button) findViewById(R.id.add_contact);
 		add.setOnClickListener(new View.OnClickListener() {	
@@ -93,7 +95,10 @@ public class CreateActivity extends Activity {
 							number = number+no_components[i];
 						}
 						Toast.makeText(getApplicationContext(), "Name" + name + number, Toast.LENGTH_LONG).show();
-						priority_list.put(name, number);	
+						if (type.equals("priority"))
+							MainActivity.priority_map.put(name, number);	
+						if (type.equals("ignore"))
+							MainActivity.ignore_map.put(name, number);
 					}
 					
 				}

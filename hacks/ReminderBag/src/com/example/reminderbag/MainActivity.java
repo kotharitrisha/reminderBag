@@ -30,8 +30,9 @@ public class MainActivity extends Activity {
 	BluetoothAdapter bta = BluetoothAdapter.getDefaultAdapter();
 	boolean call_happening_now = false;
 	String incoming_number;
-	public HashMap<String, String> priority_map = new HashMap<String, String>();
-
+	public static HashMap<String, String> priority_map = new HashMap<String, String>();
+	public static HashMap<String, String> ignore_map = new HashMap<String, String>(); 
+	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
@@ -41,47 +42,7 @@ public class MainActivity extends Activity {
 		CallStateListener callStateListener = new CallStateListener(); 
 		tm.listen(callStateListener, PhoneStateListener.LISTEN_CALL_STATE);
 		
-		/*	if (call_happening_now) {
-				Toast.makeText(getApplicationContext(), "Call happening", Toast.LENGTH_LONG).show();
-			Set<BluetoothDevice> pairedDevices = bta.getBondedDevices();
-			// If there are paired devices
-			if (pairedDevices.size() > 0) {
-			    // Loop through paired devices
-			    for (BluetoothDevice device : pairedDevices) {
-			        // Add the name and address to an array adapter to show in a ListView
-			    	if (device.getName().equals("RNBT-2634")) {
-			    		Log.d("DEBUG", "Trisha detected..");
-			    		
-			    		ConnectThread connectThread = new ConnectThread(device);
-			    		connectThread.run();
-			    	}
-			    	
-			    	Log.d("DEBUG", "Found " + device.getName() + "\n" + device.getAddress());
-			    }
-			}	
-			}*/
-		/*(try {
-			Method getUuidsMethod = BluetoothAdapter.class.getDeclaredMethod("getUuids", null);
-			ParcelUuid[] uuids =  (ParcelUuid[]) getUuidsMethod.invoke(bta, null); 
-			for (ParcelUuid uuid: uuids) {
-				Log.d("DEBUG", "UUID: " + uuid.getUuid().toString());
-			}
-			
-		} catch (NoSuchMethodException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IllegalArgumentException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (IllegalAccessException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		} catch (InvocationTargetException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}
 		
-		*/
 		Button button = (Button) findViewById(R.id.button1);
 		button.setOnClickListener(new View.OnClickListener() {
 			
@@ -90,9 +51,20 @@ public class MainActivity extends Activity {
 			public void onClick(View arg0) {
 				Log.d("DEBUG", "Clicked!");
 				Intent create_list_intent = new Intent(getApplicationContext(), CreateActivity.class);
-				Bundle bundle = new Bundle();
-				bundle.putSerializable("map", priority_map);
-				create_list_intent.putExtras(bundle);
+				create_list_intent.putExtra("map", "priority");
+				startActivity(create_list_intent);
+			}
+		});
+		
+		Button ignore_btn = (Button) findViewById(R.id.button2);
+		ignore_btn.setOnClickListener(new View.OnClickListener() {
+			
+			
+			@Override
+			public void onClick(View arg0) {
+				Log.d("DEBUG", "Clicked ignore!");
+				Intent create_list_intent = new Intent(getApplicationContext(), CreateActivity.class);
+				create_list_intent.putExtra("map", "ignore");
 				startActivity(create_list_intent);
 			}
 		});
@@ -156,14 +128,17 @@ public class MainActivity extends Activity {
 	        ConnectedThread ct = new ConnectedThread(mmSocket);
 	        byte[] buffer = new byte[1024];
 	        Log.d("DEBUG", "Incoming number is " + incoming_number);
-	        if (priority_map.values().contains("215837802")) {
-	        	buffer[0] = 'b';
+	        if (priority_map.values().contains(incoming_number)) {
+	        	buffer[0] = 'p';
 	        	//Log.v("DEBUG", )
 	        }
-	        if (incoming_number.equals("2158377902"))
-	        	buffer[0] = 'b';
-	        if (incoming_number.equals("2674074230"))
-	        	buffer[0] = 'a';
+	        else if (ignore_map.values().contains(incoming_number)) {
+	        	buffer[0] = 'i';
+	        	//Log.v("DEBUG", )
+	        }
+	        else {
+	        	buffer[0] = 'u';
+	        }
 	        
 	        
 	       
@@ -212,11 +187,7 @@ public class MainActivity extends Activity {
 	        // Keep listening to the InputStream until an exception occurs
 	        while (true) {
 	            try {
-	                // Read from the InputStream
-	                //bytes = mmInStream.read(buffer);
-	                // Send the obtained bytes to the UI activity
-	                //mHandler.obtainMessage(MESSAGE_READ, bytes, -1, buffer)
-	                  //      .sendToTarget();
+	               
 	            } catch (Exception e) {
 	                break;
 	            }
@@ -236,6 +207,8 @@ public class MainActivity extends Activity {
 	    /* Call this from the main activity to shutdown the connection */
 	    public void cancel() {
 	        try {
+	        	byte[] disconnect = {'d'};
+	        	mmOutStream.write(disconnect);
 	            mmSocket.close();
 	        } catch (IOException e) { }
 	    }
@@ -253,6 +226,10 @@ public class MainActivity extends Activity {
 	    	  Toast.makeText(getApplicationContext(), 
 	    			  "Look who is calling: "+incomingNumber, 
 	    			  Toast.LENGTH_LONG).show();
+	    	  for (String keys: priority_map.keySet()) {
+	    		  Toast.makeText(getApplicationContext(), keys, 
+	    				  Toast.LENGTH_LONG).show();
+	    	  }
 	    	  call_happening_now = true;
 	    	  if (call_happening_now) {
 	    		  Toast.makeText(getApplicationContext(), "Call happening", Toast.LENGTH_LONG).show();
@@ -278,8 +255,9 @@ public class MainActivity extends Activity {
 	    	  }
 	      case TelephonyManager.CALL_STATE_IDLE:
 	    	  Toast.makeText(getApplicationContext(), "Stopping call", Toast.LENGTH_LONG).show();
-	    	  if (connectThread != null)
+	    	  if (connectThread != null) {
 	    		  connectThread.cancel();
+	    	  }
 	      }
 	  }
 	}
