@@ -3,21 +3,19 @@ package com.example.reminderbag;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
+import java.util.HashMap;
 import java.util.Set;
+import java.util.Timer;
 import java.util.UUID;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
-import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
-import android.content.IntentFilter;
-import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.telephony.PhoneStateListener;
-import android.telephony.SmsMessage;
 import android.telephony.TelephonyManager;
 import android.util.Log;
 import android.view.Menu;
@@ -27,9 +25,12 @@ import android.widget.Toast;
 
 public class MainActivity extends Activity {
 	
+	ConnectThread connectThread;
 	private final static int REQUEST_ENABLE_BT = 1;
 	BluetoothAdapter bta = BluetoothAdapter.getDefaultAdapter();
 	boolean call_happening_now = false;
+	String incoming_number;
+	public HashMap<String, String> priority_map = new HashMap<String, String>();
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -39,11 +40,6 @@ public class MainActivity extends Activity {
 		TelephonyManager tm = (TelephonyManager) getApplicationContext().getSystemService(Context.TELEPHONY_SERVICE);
 		CallStateListener callStateListener = new CallStateListener(); 
 		tm.listen(callStateListener, PhoneStateListener.LISTEN_CALL_STATE);
-		
-		SmsListener sl = new SmsListener();
-		IntentFilter sms_filter = new IntentFilter();
-		sms_filter.addAction("android.povider.Telephony.SMS_RECEIVED");
-		getApplicationContext().registerReceiver(sl, sms_filter);
 		
 		/*	if (call_happening_now) {
 				Toast.makeText(getApplicationContext(), "Call happening", Toast.LENGTH_LONG).show();
@@ -93,7 +89,11 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				Log.d("DEBUG", "Clicked!");
-				// TODO Auto-generated method stub
+				Intent create_list_intent = new Intent(getApplicationContext(), CreateActivity.class);
+				Bundle bundle = new Bundle();
+				bundle.putSerializable("map", priority_map);
+				create_list_intent.putExtras(bundle);
+				startActivity(create_list_intent);
 			}
 		});
 	}
@@ -155,15 +155,29 @@ public class MainActivity extends Activity {
 	        
 	        ConnectedThread ct = new ConnectedThread(mmSocket);
 	        byte[] buffer = new byte[1024];
-	        buffer[0] = 'b';
-	        ct.write(buffer);
+	        Log.d("DEBUG", "Incoming number is " + incoming_number);
+	        if (priority_map.values().contains("215837802")) {
+	        	buffer[0] = 'b';
+	        	//Log.v("DEBUG", )
+	        }
+	        if (incoming_number.equals("2158377902"))
+	        	buffer[0] = 'b';
+	        if (incoming_number.equals("2674074230"))
+	        	buffer[0] = 'a';
+	        
+	        
+	       
+				ct.write(buffer);
+			
 	        Log.d("DEBUG", "WHat the hell is going on");
+	        
 	    }
 	 
 
 		/** Will cancel an in-progress connection, and close the socket */
 	    public void cancel() {
 	        try {
+	        	Log.v("TAG", "Cancelling");
 	            mmSocket.close();
 	        } catch (IOException e) { }
 	    }
@@ -210,10 +224,12 @@ public class MainActivity extends Activity {
 	    }
 	 
 	    /* Call this from the main activity to send data to the remote device */
-	    public void write(byte[] bytes) {
+	    public void write(byte[] bytes)  {
 	        try {
 	        	Log.d("DEBUG", "Writing heyy");
 	            mmOutStream.write(bytes);
+	            
+	            
 	        } catch (IOException e) { }
 	    }
 	 
@@ -232,34 +248,38 @@ public class MainActivity extends Activity {
 	  @Override
 	  public void onCallStateChanged(int state, String incomingNumber) {
 	      switch (state) {
-	          case TelephonyManager.CALL_STATE_RINGING:
-	          // called when someone is ringing to this phone
-	        	  
-	          Toast.makeText(getApplicationContext(), 
-	                  "Look who is calling: "+incomingNumber, 
-	                  Toast.LENGTH_LONG).show();
-	          call_happening_now = true;
-	          if (call_happening_now) {
-					Toast.makeText(getApplicationContext(), "Call happening", Toast.LENGTH_LONG).show();
-				Set<BluetoothDevice> pairedDevices = bta.getBondedDevices();
-				// If there are paired devices
-				if (pairedDevices.size() > 0) {
-				    // Loop through paired devices
-				    for (BluetoothDevice device : pairedDevices) {
-				        // Add the name and address to an array adapter to show in a ListView
-				    	if (device.getName().equals("RNBT-2634")) {
-				    		Log.d("DEBUG", "Trisha detected..");
-				    		
-				    		ConnectThread connectThread = new ConnectThread(device);
-				    		connectThread.run();
-				    	}
-				    	
-				    	Log.d("DEBUG", "Found " + device.getName() + "\n" + device.getAddress());
-				    }
-				}	
-	          
-	          break;
-	          }	
+	      case TelephonyManager.CALL_STATE_RINGING:
+	    	  // called when someone is ringing to this phone 
+	    	  Toast.makeText(getApplicationContext(), 
+	    			  "Look who is calling: "+incomingNumber, 
+	    			  Toast.LENGTH_LONG).show();
+	    	  call_happening_now = true;
+	    	  if (call_happening_now) {
+	    		  Toast.makeText(getApplicationContext(), "Call happening", Toast.LENGTH_LONG).show();
+	    		  Set<BluetoothDevice> pairedDevices = bta.getBondedDevices();
+	    		  Log.d("DEBUG", "I am getting "+ incomingNumber);
+	    		  // If there are paired devices
+	    		  if (pairedDevices.size() > 0) {
+	    			  // Loop through paired devices
+	    			  for (BluetoothDevice device : pairedDevices) {
+	    				  // Add the name and address to an array adapter to show in a ListView
+	    				  if (device.getName().equals("RNBT-2634")) {
+	    					  Log.d("DEBUG", "Trisha detected..");
+	    					  incoming_number = incomingNumber;
+	    					  connectThread = new ConnectThread(device);
+	    					  connectThread.run();
+	    				  }
+
+	    				  Log.d("DEBUG", "Found " + device.getName() + "\n" + device.getAddress());
+	    			  }
+	    		  }	
+
+	    		  break;
+	    	  }
+	      case TelephonyManager.CALL_STATE_IDLE:
+	    	  Toast.makeText(getApplicationContext(), "Stopping call", Toast.LENGTH_LONG).show();
+	    	  if (connectThread != null)
+	    		  connectThread.cancel();
 	      }
 	  }
 	}
