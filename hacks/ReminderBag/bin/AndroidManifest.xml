@@ -32,7 +32,10 @@
             android:name="com.example.reminderbag.CreateActivity"
             android:label="Creating lists" >
         </activity>
-        
+        <activity
+            android:name="com.example.reminderbag.ViewList"
+            android:label="View lists" >
+        </activity>
     </application>
 
 </manifest>

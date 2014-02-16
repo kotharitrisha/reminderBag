@@ -80,6 +80,7 @@ public class MainActivity extends Activity {
 	private class ConnectThread extends Thread {
 	    private final BluetoothSocket mmSocket;
 	    private final BluetoothDevice mmDevice;
+	    ConnectedThread ct;
 	 
 	    public ConnectThread(BluetoothDevice device) {
 	        // Use a temporary object that is later assigned to mmSocket,
@@ -125,7 +126,7 @@ public class MainActivity extends Activity {
 	        // Do work to manage the connection (in a separate thread)
 	        // manageConnectedSocket(mmSocket);
 	        
-	        ConnectedThread ct = new ConnectedThread(mmSocket);
+	        ct = new ConnectedThread(mmSocket);
 	        byte[] buffer = new byte[1024];
 	        Log.d("DEBUG", "Incoming number is " + incoming_number);
 	        if (priority_map.values().contains(incoming_number)) {
@@ -153,6 +154,9 @@ public class MainActivity extends Activity {
 	    public void cancel() {
 	        try {
 	        	Log.v("TAG", "Cancelling");
+	        	byte[] disconnect = {'d'};
+	        	//Toast.makeText(getApplicationContext(), "sending a d", Toast.LENGTH_SHORT).show();
+	        	ct.write(disconnect);
 	            mmSocket.close();
 	        } catch (IOException e) { }
 	    }
@@ -199,6 +203,7 @@ public class MainActivity extends Activity {
 	        try {
 	        	Log.d("DEBUG", "Writing heyy");
 	            mmOutStream.write(bytes);
+	            Toast.makeText(getApplicationContext(), "Passing" + bytes[0], Toast.LENGTH_LONG).show();
 	            
 	            
 	        } catch (IOException e) { }

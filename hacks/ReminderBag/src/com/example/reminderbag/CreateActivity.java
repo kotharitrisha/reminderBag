@@ -39,10 +39,19 @@ public class CreateActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				//priority_list.put("Mark", "2158377900");
-
-					Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+				Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
 				startActivityForResult(intent, PICK_CONTACT);
 
+			}
+		});
+		
+		Button view = (Button) findViewById(R.id.view_list);
+		view.setOnClickListener(new View.OnClickListener() {
+			@Override
+			public void onClick(View v) {
+				Intent intent = new Intent(getApplicationContext(), ViewList.class);
+				intent.putExtra("map", type);
+				startActivity(intent);
 			}
 		});
 
