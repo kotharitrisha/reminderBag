@@ -1,0 +1,1 @@
+/** * ActorBlockmodel.java * * (c) 2000 Wibi Internet */package com.wibinet.networks;public interface ActorBlockmodel extends Blockmodel{	// some sort of joint?	public double getActorProbability(int ai);	public int getBlockCardinality(int bi, int bj);}

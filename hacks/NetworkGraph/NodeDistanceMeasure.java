@@ -1,0 +1,1 @@
+/** * NodeDistanceMeasure.java * * (c) 2000 Wibi Internet */package com.wibinet.networks;public interface NodeDistanceMeasure{  public double getDistance(NetworkData data, int node1, int node2);  public int getOperationCount();  public long getSolveTime();}

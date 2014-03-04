@@ -1,0 +1,1 @@
+/** * DataChangeListener.java * * (c) 2000 */ package com.wibinet.networks;public interface DataChangeListener{  public void dataChanged(DataChangeEvent dce);}

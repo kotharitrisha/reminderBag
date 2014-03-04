@@ -1,0 +1,1 @@
+/** * DyadBlockmodel.java * * (c) 2000 Wibi Internet */package com.wibinet.networks;public interface DyadBlockmodel extends Blockmodel{	public double getDyadProbability(int actor1, int actor2);	public int getDyadParameterCount(int bi, int bj);}

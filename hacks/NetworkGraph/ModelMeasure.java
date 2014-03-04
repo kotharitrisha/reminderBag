@@ -1,0 +1,1 @@
+/** * ModelMeasure.java *  * Classes that implement the ModelMeasure interface should * provide a score for particular partitions. * * (c) 2000 Wibi Internet */package com.wibinet.networks;public interface ModelMeasure{  public double getBestScore();  public double getWorstScore();  public double getScore(Blockmodel model);}

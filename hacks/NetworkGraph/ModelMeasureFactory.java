@@ -1,0 +1,1 @@
+/** * ModelMeasureFactory.java * * (c) 2000 Wibi Internet */package com.wibinet.networks;import com.wibinet.util.*;public interface ModelMeasureFactory{  public ModelMeasure newInstance(NetworkData nData);  public BlockmodelFactory getBlockmodelFactory();  public String getName();}
