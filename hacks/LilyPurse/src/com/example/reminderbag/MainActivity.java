@@ -5,23 +5,27 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.HashMap;
 import java.util.Set;
-import java.util.Timer;
 import java.util.UUID;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;
 import android.bluetooth.BluetoothDevice;
 import android.bluetooth.BluetoothSocket;
+import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.provider.ContactsContract;
 import android.telephony.PhoneStateListener;
 import android.telephony.TelephonyManager;
+import android.telephony.gsm.SmsMessage;
 import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
+
 
 public class MainActivity extends Activity {
 	
@@ -30,8 +34,11 @@ public class MainActivity extends Activity {
 	BluetoothAdapter bta = BluetoothAdapter.getDefaultAdapter();
 	boolean call_happening_now = false;
 	String incoming_number;
+	static boolean incoming_sms = true;
+	
 	public static HashMap<String, String> priority_map = new HashMap<String, String>();
 	public static HashMap<String, String> ignore_map = new HashMap<String, String>(); 
+	static final int PICK_CONTACT = 1;
 	
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -50,11 +57,14 @@ public class MainActivity extends Activity {
 			@Override
 			public void onClick(View arg0) {
 				Log.d("DEBUG", "Clicked!");
-				Intent create_list_intent = new Intent(getApplicationContext(), CreateActivity.class);
-				create_list_intent.putExtra("map", "priority");
-				startActivity(create_list_intent);
+				Intent intent = new Intent(Intent.ACTION_PICK, ContactsContract.Contacts.CONTENT_URI);
+				startActivityForResult(intent, PICK_CONTACT);
+
 			}
 		});
+
+
+
 		
 		Button ignore_btn = (Button) findViewById(R.id.button1);
 		ignore_btn.setOnClickListener(new View.OnClickListener() {
@@ -129,15 +139,25 @@ public class MainActivity extends Activity {
 	        ct = new ConnectedThread(mmSocket);
 	        byte[] buffer = new byte[1024];
 	        Log.d("DEBUG", "Incoming number is " + incoming_number);
+	        /*if (incoming_sms) {
+	        	buffer[0] = 's';
+	        	incoming_sms = false;
+	        }*/
+	        
 	        if (priority_map.values().contains(incoming_number)) {
+	        	Toast.makeText(getApplicationContext(), "Passing a p", Toast.LENGTH_LONG).show();
 	        	buffer[0] = 'p';
 	        	//Log.v("DEBUG", )
 	        }
 	        else if (ignore_map.values().contains(incoming_number)) {
+	        	Toast.makeText(getApplicationContext(), "Passing an ignore", Toast.LENGTH_LONG).show();
+
 	        	buffer[0] = 'i';
 	        	//Log.v("DEBUG", )
 	        }
 	        else {
+	        	Toast.makeText(getApplicationContext(), "Passing a normal", Toast.LENGTH_LONG).show();
+
 	        	buffer[0] = 'u';
 	        }
 	        
@@ -154,10 +174,9 @@ public class MainActivity extends Activity {
 	    public void cancel() {
 	        try {
 	        	Log.v("TAG", "Cancelling");
-	        	byte[] disconnect = {'d'};
 	        	//Toast.makeText(getApplicationContext(), "sending a d", Toast.LENGTH_SHORT).show();
-	        	ct.write(disconnect);
-	            mmSocket.close();
+	        	if (ct != null) 
+	            	mmSocket.close();
 	        } catch (IOException e) { }
 	    }
 	}
@@ -265,6 +284,56 @@ public class MainActivity extends Activity {
 	    	  }
 	      }
 	  }
+	}
+	
+	
+	public static class SmsListener extends BroadcastReceiver{
+
+		public SmsListener(){};
+		
+	    private SharedPreferences preferences;
+
+	    @Override
+	    public void onReceive(Context context, Intent intent) {
+	        // TODO Auto-generated method stub
+            Log.d("DEBUG", "I am here");
+
+	        if(intent.getAction().equals("android.provider.Telephony.SMS_RECEIVED")){
+	        	Toast.makeText(context, "Got SMS", Toast.LENGTH_SHORT).show();
+	        	Bundle bundle = intent.getExtras();           //---get the SMS message passed in---
+	            SmsMessage[] msgs = null;
+	            String msg_from;
+	            if (bundle != null){
+	                //---retrieve the SMS message received---
+	                try{
+	                    Object[] pdus = (Object[]) bundle.get("pdus");
+	                    msgs = new SmsMessage[pdus.length];
+	                    for(int i=0; i<msgs.length; i++){
+	                        msgs[i] = SmsMessage.createFromPdu((byte[])pdus[i]);
+	                        msg_from = msgs[i].getOriginatingAddress();
+	                        String msgBody = msgs[i].getMessageBody();
+	                        Log.d("DEBUG", "Message received: "+ msgBody);
+	                        Toast.makeText(context, msgBody, Toast.LENGTH_SHORT).show();
+
+	                       /* Set<BluetoothDevice> pairedDevices = bta.getBondedDevices();
+	                        if (pairedDevices.size() > 0) {
+	      	    			  // Loop through paired devices
+	      	    			  for (BluetoothDevice device : pairedDevices) {
+	      	    				  // Add the name and address to an array adapter to show in a ListView
+	      	    				  if (device.getName().equals("RNBT-2634")) {
+	      	    					  Log.d("DEBUG", "Trisha detected..");
+	      	                        incoming_sms = true;
+	      	    					connectThread.run();
+	      	    				  }
+	      	    			  }
+	                        }*/
+	                    }
+	                }catch(Exception e){
+//	                            Log.d("Exception caught",e.getMessage());
+	                }
+	            }
+	        }
+	    }
 	}
 
 }
