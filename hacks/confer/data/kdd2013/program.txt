@@ -1,0 +1,139 @@
+Date: MONDAY- Aug 12th 
+Time: 10:30-12pm
+Session: Research 1
+Room: Chicago 8
+
+Date: MONDAY- Aug 12th 
+Time: 10:30-12pm
+Session: Research 2
+Room: Chicago 9
+
+Date: MONDAY- Aug 12th 
+Time: 10:30-12pm
+Session: Research 3
+Room: Chicago 10
+
+Date: MONDAY- Aug 12th 
+Time: 10:30-12pm
+Session: Industry Government 1
+Room: Michigan
+
+Date: MONDAY- Aug 12th 
+Time: 3-4:30pm
+Session: Research 4
+Room: Chicago 8
+
+Date: MONDAY- Aug 12th 
+Time: 3-4:30pm
+Session: Research 5
+Room: Chicago 9
+
+Date: MONDAY- Aug 12th 
+Time: 3-4:30pm
+Session: Industry Government 2
+Room: Michigan
+
+Date: MONDAY- Aug 12th 
+Time: 5-6:10pm
+Session: Research 6
+Room: Chicago 8
+
+Date: MONDAY- Aug 12th 
+Time: 5-6:10pm
+Session: Research 7
+Room: Chicago 9
+
+Date: MONDAY- Aug 12th 
+Time: 5-5:30pm
+Session: Industry Government 3
+Room: Michigan
+
+Date: MONDAY- Aug 12th 
+Time: 5:30-6:10pm
+Session: Industry Government 4
+Room: Michigan
+
+Date: MONDAY- Aug 12th 
+Time: 6:30-8:30pm
+Session: Research 20
+Room: River B
+
+Date: TUESDAY- Aug 13th 
+Time: 10:30-12pm
+Session: Research 8
+Room: Chicago 8
+
+Date: TUESDAY- Aug 13th 
+Time: 10:30-12pm
+Session: Research 9
+Room: Chicago 9
+
+Date: TUESDAY- Aug 13th 
+Time: 10:30-12pm
+Session: Research 10
+Room: Chicago 10
+
+Date: TUESDAY- Aug 13th 
+Time: 10:30-12pm
+Session: Industry Government 5
+Room: Michigan
+
+Date: TUESDAY- Aug 13th 
+Time: 3-4:30pm
+Session: Research 11
+Room: Chicago 8
+
+Date: TUESDAY- Aug 13th 
+Time: 3-4:30pm
+Session: Research 12
+Room: Chicago 9
+
+Date: TUESDAY- Aug 13th 
+Time: 3-4:30pm
+Session: Research 13
+Room: Chicago 10
+
+Date: TUESDAY- Aug 13th 
+Time: 3-4:30pm
+Session: Industry Government 6
+Room: Michigan
+
+Date: TUESDAY- Aug 13th 
+Time: 5-6:30pm
+Session: Research 14
+Room: Chicago 8
+
+Date: TUESDAY- Aug 13th 
+Time: 5-6:30pm
+Session: Research 15
+Room: Chicago 9
+
+Date: TUESDAY- Aug 13th 
+Time: 5-6:30pm
+Session: Industry Government 7
+Room: Michigan
+
+Date: WEDNESDAY- Aug 14th 
+Time: 10:30-12pm
+Session: Research 16
+Room: Chicago 8
+
+Date: WEDNESDAY- Aug 14th 
+Time: 10:30-12pm
+Session: Research 17
+Room: Chicago 9
+
+Date: WEDNESDAY- Aug 14th 
+Time: 10:30-12pm
+Session: Research 18
+Room: Chicago 10
+
+Date: WEDNESDAY- Aug 14th 
+Time: 10:30-12pm
+Session: Industry Government 8
+Room: Michigan
+
+Date: WEDNESDAY- Aug 14th 
+Time: 1:30-3pm
+Session: Research 19
+Room: Chicago 6/7 

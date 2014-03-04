@@ -1,0 +1,294 @@
+schedule=[
+  {
+    "date": "28\/07\/2013",
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "tutorial01",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial02",
+            "room": "TBA@TCD"
+          }
+        ],
+        "slot_class": "morning1 morning2 afternoon1 afternoon2",
+        "slot_id": "Sunday1",
+        "time": "08:30-17:30"
+      },
+      {
+        "sessions": [
+          {
+            "session": "tutorial03",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial04",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial05",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial06",
+            "room": "TBA@TCD"
+          }
+        ],
+        "slot_class": "morning1 morning2",
+        "slot_id": "Sunday2",
+        "time": "08:30-12:15"
+      },
+      {
+        "sessions": [
+          {
+            "session": "tutorial07",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial08",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial09",
+            "room": "TBA@TCD"
+          },
+          {
+            "session": "tutorial10",
+            "room": "TBA@TCD"
+          }
+        ],
+        "slot_class": "afternoon1 afternoon2",
+        "slot_id": "Sunday3",
+        "time": "13:30-17:30"
+      }
+    ],
+    "day": "Sunday"
+  },
+  {
+    "date": "29\/07\/2013",
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "keynote01",
+            "room": "Mansion House"
+          }
+        ],
+        "slot_class": "morning1",
+        "slot_id": "Monday1",
+        "time": "09:00-10:15"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research1a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research1b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "research1c",
+            "room": "Emmet Theatre, TCD"
+          }
+        ],
+        "slot_class": "morning2",
+        "slot_id": "Monday2",
+        "time": "11:00-12:40"
+      },
+      {
+        "sessions": [
+          {
+            "session": "shortanddemos01",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_class": "afternoon1",
+        "slot_id": "Monday3",
+        "time": "13:40-15:40"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research2a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research2b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "research2c",
+            "room": "Emmet Theatre, TCD"
+          }
+        ],
+        "slot_class": "afternoon2",
+        "slot_id": "Monday4",
+        "time": "15:40-17:20"
+      }
+    ],
+    "day": "Monday"
+  },
+  {
+    "date": "30\/07\/2013",
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "keynote02",
+            "room": "Mansion House"
+          }
+        ],
+        "slot_class": "morning1",
+        "slot_id": "Tuesday1",
+        "time": "09:00-10:15"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research3a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research3b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "research3c",
+            "room": "Emmet Theatre, TCD"
+          }
+        ],
+        "slot_class": "morning2",
+        "slot_id": "Tuesday2",
+        "time": "11:00-12:40"
+      },
+      {
+        "sessions": [
+          {
+            "session": "shortanddemos02",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_class": "afternoon1",
+        "slot_id": "Tuesday3",
+        "time": "13:40-15:40"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research4a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research4b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "research4c",
+            "room": "Emmet Theatre, TCD"
+          }
+        ],
+        "slot_class": "afternoon2",
+        "slot_id": "Tuesday4",
+        "time": "15:40-16:55"
+      }
+    ],
+    "day": "Tuesday"
+  },
+  {
+    "date": "31\/07\/2013",
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "research5a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research5b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "industry1",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_class": "morning1",
+        "slot_id": "Wednesday1",
+        "time": "09:00-10:15"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research6a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research6b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "industry2",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_class": "morning2",
+        "slot_id": "Wednesday2",
+        "time": "10:40-12:20"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research7a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research7b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "industry3",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_class": "afternoon1",
+        "slot_id": "Wednesday3",
+        "time": "14:00-15:15"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research8a",
+            "room": "Burke Theatre, TCD"
+          },
+          {
+            "session": "research8b",
+            "room": "J.M. Synge Theatre, TCD"
+          },
+          {
+            "session": "industry4",
+            "room": "Exam Hall, TCD"
+          }
+        ],
+        "slot_class": "afternoon2",
+        "slot_id": "Wednesday4",
+        "time": "15:40-17:20"
+      },
+      {
+        "sessions": [
+          {
+            "session": "closing",
+            "room": "TBA@TCD"
+          }
+        ],
+        "slot_class": "closing",
+        "slot_id": "Wednesday5",
+        "time": "17:20-17:50"
+      }
+    ],
+    "day": "Wednesday"
+  }
+]

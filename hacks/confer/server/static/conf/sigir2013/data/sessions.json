@@ -1,0 +1,379 @@
+sessions={
+"tutorial01": {
+    "s_title": "Full-day Tutorial: Building Test Collections: An Interactive Guide for Students and Others Without their own Evaluation Conference Series",
+    "submissions": [
+      "tut01"
+    ]
+  },
+"tutorial02": {
+    "s_title": "Full-day Tutorial: Entity Linking and Retrieval",
+    "submissions": [
+      "tut02"
+    ]
+  },
+"tutorial03": {
+    "s_title": "Half-day Tutorial: Music Similarity and Retrieval",
+    "submissions": [
+      "tut03"
+    ]
+  },
+"tutorial04": {
+    "s_title": "Half-day Tutorial: The Cluster Hypothesis in Information Retrieval",
+    "submissions": [
+      "tut04"
+    ]
+  },
+"tutorial05": {
+    "s_title": "Half-day Tutorial: Scalability and Efficiency Challenges in Commercial Web Search Engines",
+    "submissions": [
+      "tut05"
+    ]
+  },
+"tutorial06": {
+    "s_title": "Half-day Tutorial: Searching in the City of Knowledge: Challenges and Recent Developments",
+    "submissions": [
+      "tut06"
+    ]
+  },
+"tutorial07": {
+    "s_title": "Half-day Tutorial: Multimedia Recommendation: Technology and Techniques",
+    "submissions": [
+      "tut07"
+    ]
+  },
+"tutorial08": {
+    "s_title": "Half-day Tutorial: Kernel-based Learning to Rank with Syntactic and Semantic Structures",
+    "submissions": [
+      "tut08"
+    ]
+  },
+"tutorial09": {
+    "s_title": "Half-day Tutorial: Diversity and Novelty Information Retrieval",
+    "submissions": [
+      "tut09"
+    ]
+  },
+"tutorial10": {
+    "s_title": "Half-day Tutorial: Designing Search Usability",
+    "submissions": [
+      "tut10"
+    ]
+  },
+  "keynote01": {
+    "s_title": "Opening Session: Keynote 1:  Celebrating 20 Years of Web Search",
+    "submissions": [
+      "k01"
+    ]
+  },
+  "research1a": {
+    "s_title": "User Behaviour",
+    "submissions": [
+      "r1a01",
+      "r1a02",
+      "r1a03",
+      "r1a04"
+    ]
+  },
+  "research1b": {
+    "s_title": "Social Media and Network Analysis I",
+    "submissions": [
+      "r1b01",
+      "r1b02",
+      "r1b03",
+      "r1b04"
+    ]
+  },
+  "research1c": {
+    "s_title": "Queries I",
+    "submissions": [
+      "r1c01",
+      "r1c02",
+      "r1c03",
+      "r1c04"
+    ]
+  },
+  "shortanddemos01": {
+    "s_title": "Short Papers and Demos I",
+    "submissions": [
+      "sd101",
+      "sd102",
+      "sd103",
+      "sd104",
+      "sd105",
+      "sd106",
+      "sd107",
+      "sd108",
+      "sd109",
+      "sd110",
+      "sd111",
+      "sd112",
+      "sd113",
+      "sd114",
+      "sd115",
+      "sd116",
+      "sd117",
+      "sd118",
+      "sd119",
+      "sd120",
+      "sd121",
+      "sd122",
+      "sd123",
+      "sd124",
+      "sd125",
+      "sd126",
+      "sd127",
+      "sd128",
+      "sd129",
+      "sd130",
+      "sd131",
+      "sd132",
+      "sd133",
+      "sd134",
+      "sd135",
+      "sd136",
+      "sd137",
+      "sd138",
+      "sd139",
+      "sd140",
+      "sd141",
+      "sd142",
+      "sd143",
+      "sd144"
+    ]
+  },
+  "research2a": {
+    "s_title": "Users and Interactive IR I",
+    "submissions": [
+      "r2a01",
+      "r2a02",
+      "r2a03",
+      "r2a04"
+    ]
+  },
+  "research2b": {
+    "s_title": "Efficiency I",
+    "submissions": [
+      "r2b01",
+      "r2b02",
+      "r2b03",
+      "r2b04"
+    ]
+  },
+  "research2c": {
+    "s_title": "Topic Modeling",
+    "submissions": [
+      "r2c01",
+      "r2c02",
+      "r2c03",
+      "r2c04"
+    ]
+  },
+  "keynote02": {
+    "s_title": "Keynote 2:  Riding the Multimedia Big Data Wave",
+    "submissions": [
+      "k02"
+    ]
+  },
+  "research3a": {
+    "s_title": "Users and Interactive IR II",
+    "submissions": [
+      "r3a01",
+      "r3a02",
+      "r3a03",
+      "r3a04"
+    ]
+  },
+  "research3b": {
+    "s_title": "Recommender Systems",
+    "submissions": [
+      "r3b01",
+      "r3b02",
+      "r3b03",
+      "r3b04"
+    ]
+  },
+  "research3c": {
+    "s_title": "Retrieval Models and Ranking I",
+    "submissions": [
+      "r3c01",
+      "r3c02",
+      "r3c03",
+      "r3c04"
+    ]
+  },
+  "shortanddemos02": {
+    "s_title": "Short Papers and Demos II",
+    "submissions": [
+      "sd201",
+      "sd202",
+      "sd203",
+      "sd204",
+      "sd205",
+      "sd206",
+      "sd207",
+      "sd208",
+      "sd209",
+      "sd210",
+      "sd211",
+      "sd212",
+      "sd213",
+      "sd214",
+      "sd215",
+      "sd216",
+      "sd217",
+      "sd218",
+      "sd219",
+      "sd220",
+      "sd221",
+      "sd222",
+      "sd223",
+      "sd224",
+      "sd225",
+      "sd226",
+      "sd227",
+      "sd228",
+      "sd229",
+      "sd230",
+      "sd231",
+      "sd232",
+      "sd233",
+      "sd234",
+      "sd235",
+      "sd236",
+      "sd237",
+      "sd238",
+      "sd239",
+      "sd240",
+      "sd241",
+      "sd242"
+    ]
+  },
+  "research4a": {
+    "s_title": "Time",
+    "submissions": [
+      "r4a01",
+      "r4a02",
+      "r4a03"
+    ]
+  },
+  "research4b": {
+    "s_title": "Evaluation I",
+    "submissions": [
+      "r4b01",
+      "r4b02",
+      "r4b03"
+    ]
+  },
+  "research4c": {
+    "s_title": "Multimedia",
+    "submissions": [
+      "r4c01",
+      "r4c02",
+      "r4c03"
+    ]
+  },
+  "industry1": {
+    "s_title": "Industry Track Session I",
+    "submissions": [
+      "i101",
+      "i102"
+    ]
+  },
+  "industry2": {
+    "s_title": "Industry Track Session II",
+    "submissions": [
+      "i201",
+      "i202",
+      "i203"
+    ]
+  },
+  "industry3": {
+    "s_title": "Industry Track Session III",
+    "submissions": [
+      "i301",
+      "i302"
+    ]
+  },
+  "industry4": {
+    "s_title": "Industry Track Session IV",
+    "submissions": [
+      "i401",
+      "i402",
+      "i403"
+    ]
+  },
+  "research5a": {
+    "s_title": "Search Sessions",
+    "submissions": [
+      "r5a01",
+      "r5a02",
+      "r5a03"
+    ]
+  },
+  "research5b": {
+    "s_title": "Click Models",
+    "submissions": [
+      "r5b01",
+      "r5b02",
+      "r5b03"
+    ]
+  },
+  "research6a": {
+    "s_title": "Social Media and Network Analysis II",
+    "submissions": [
+      "r6a01",
+      "r6a02",
+      "r6a03",
+      "r6a04"
+    ]
+  },
+  "research6b": {
+    "s_title": "Queries II",
+    "submissions": [
+      "r6b01",
+      "r6b02",
+      "r6b03",
+      "r6b04"
+    ]
+  },
+  "research7a": {
+    "s_title": "Diversity",
+    "submissions": [
+      "r7a01",
+      "r7a02",
+      "r7a03"
+    ]
+  },
+  "research7b": {
+    "s_title": "Evaluation II",
+    "submissions": [
+      "r7b01",
+      "r7b02",
+      "r7b03"
+    ]
+  },
+  "research8a": {
+    "s_title": "Retrieval Models and Ranking II",
+    "submissions": [
+      "r8a01",
+      "r8a02",
+      "r8a03",
+      "r8a04"
+    ]
+  },
+  "research8b": {
+    "s_title": "Efficiency II",
+    "submissions": [
+      "r8b01",
+      "r8b02",
+      "r8b03",
+      "r8b04"
+    ]
+  },
+  "closing": {
+    "s_title": "Closing Session",
+    "submissions": [
+      "closingpanel"
+    ]
+  }
+}

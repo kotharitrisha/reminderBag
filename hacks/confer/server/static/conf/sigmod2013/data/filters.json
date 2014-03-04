@@ -1,0 +1,98 @@
+s_filters=[
+	{
+		"label":"Sessions", 
+		"vals":
+			[
+				{
+					"data":"all", 
+					"class":"p_session filter active f_all", 
+					"type":"p_session", 
+					"label":"All"
+				},
+				{
+					"data":"s_starred", 
+					"class":"p_session filter", 
+					"type":"p_session", 
+					"label":"Liked"
+				},
+				{
+					"data":"s_recommended, .s_starred", 
+					"class":"p_session filter", 
+					"type":"p_session", 
+					"label":"Liked + Recommended"
+				}
+		]
+	},
+	{
+		"label":"Day", 
+		"vals":
+			[
+				{
+					"data":"all", 
+					"class":"day filter active f_all", 
+					"type":"day", 
+					"label":"All"
+				},
+				{
+					"data":"Tuesday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Monday"
+				},
+				{
+					"data":"Wednesday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Wednesday"
+				},
+				{
+					"data":"Thursday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Thursday"
+				},
+				{
+					"data":"Friday", 
+					"class":"day filter", 
+					"type":"day", 
+					"label":"Friday"
+				}
+		]
+	},
+	{
+		"label":"Time", 
+		"vals":
+			[
+				{
+					"data":"all", 
+					"class":"time filter active f_all", 
+					"type":"time", 
+					"label":"All"
+				},
+				{
+					"data":"morning", 
+					"class":"time filter", 
+					"type":"time", 
+					"label":"Morning"
+				},
+				{
+					"data":"afternoon1", 
+					"class":"time filter", 
+					"type":"time", 
+					"label":"Afternoon 1"
+				},
+				{
+					"data":"afternoon2", 
+					"class":"time filter", 
+					"type":"time", 
+					"label":"Afternoon 2"
+				},
+				{
+					"data":"evening", 
+					"class":"time filter", 
+					"type":"time", 
+					"label":"Evening"
+				}
+		]
+	}
+]

@@ -1,0 +1,157 @@
+sessions={
+"reg01": {
+	"s_title": "Registration",
+	"submissions":[]
+  },
+"tutorial01": {
+    "s_title": "Tutorial 1",
+    "submissions": [
+      "tut01"
+    ]
+  },
+"tutorial02": {
+    "s_title": "Tutorial 2",
+    "submissions": [
+      "tut02"
+    ]
+  },
+"lunch01": {
+   "s_title": "Lunch break",
+   "submissions":[]
+  },
+"tutorial03": {
+    "s_title": "Tutorial 3",
+    "submissions": [
+      "tut03"
+    ]
+  },
+"tutorial04": {
+    "s_title": "Tutorial 4",
+    "submissions": [
+      "tut04"
+    ]
+  },
+"reg02": {
+	"s_title": "Registration",
+	"submissions":[]
+  },  
+"welcome": {
+    "s_title": "Welcome",
+	"submissions": []
+  },  
+"keynote01": {
+    "s_title": "Keynote Address",
+    "submissions": [
+      "k01"
+    ]
+  },
+"research1a": {
+    "s_title": "Session 1: Relevance Feedback",
+    "submissions": [
+      "p01",
+      "p02"
+    ]
+  },
+"lunch02": {
+   "s_title": "Lunch break",
+   "submissions":[]
+  },  
+"research1b": {
+    "s_title": "Session 2: Evaluation",
+    "submissions": [
+      "p03",
+      "p04"
+    ]
+  },
+"panel1a": {
+    "s_title": "Panel Discussion",
+	"submissions": [
+	   "panel01"
+	]
+  },
+"posters": {
+	"s_title": "Posters & Drink Reception",
+	"submissions": [
+		"poster01",
+		"poster02",
+		"poster03",
+		"poster04",
+		"poster05"
+	]
+  },
+"reg03": {
+	"s_title": "Registration",
+	"submissions":[]
+  },    
+"keynote02": {
+    "s_title": "Keynote Address",
+    "submissions": [
+      "k02"
+    ]
+  }, 
+"research2a": {
+    "s_title": "Session 3: Recommender Systems",
+	"submissions": [
+	  "p05",
+	  "p06"
+	]
+  },  
+"lunch03": {
+   "s_title": "Lunch break",
+   "submissions":[]
+  },    
+"research2b": {
+    "s_title": "Session 4: Temporal & Thread Search",
+	"submissions": [
+	  "p07",
+	  "p08"
+	]
+  },    
+"research2c": {
+    "s_title": "Session 5: Context & Diversification",
+	"submissions": [
+	  "p09",
+	  "p10",
+	  "p11"
+	]
+  },      
+"banquet": {
+	"s_title": "Banquet",
+	"submissions":[]
+  },  
+"reg04": {
+	"s_title": "Registration",
+	"submissions":[]
+  },      
+"keynote03": {
+    "s_title": "Keynote Address",
+    "submissions": [
+      "k03"
+    ]
+  },   
+"research3a": {
+    "s_title": "Session 6: Ranking I",
+	"submissions": [
+	  "p12",
+	  "p13",
+	  "p14"
+	]
+  },    
+"lunch04": {
+   "s_title": "Lunch break",
+   "submissions":[]
+  },      
+"research3b": {
+    "s_title": "Session 7: Ranking II",
+	"submissions": [
+	  "p15",
+	  "p16",
+	  "p17",
+	  "p18"
+	]
+  },
+"closing": {
+   "s_title": "Closing session",
+   "submissions":[]
+  }  
+}

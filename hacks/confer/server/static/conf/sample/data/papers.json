@@ -1,0 +1,53 @@
+entities={
+  "tut01": {
+    "abstract": "This is an abstract",
+    "title": "This is a title",
+    "authors": [
+      {
+        "affiliation": "NIST",
+	"location": "USA",
+	"name" : "Trisha Kothari",
+	"email": "kotharit@seas.upenn.edu"
+      }
+    ]
+  },
+
+  "tut02": {
+    "abstract":	"This is an abstract 2",
+    "title": "This is a	title 2",
+    "authors": [
+      {
+      "affiliation": "NIST",
+      "location": "USA",
+      "name" : "Trisha Kothari",
+      "email": "kotharit@seas.upenn.edu"
+      } 
+    ] 
+  },
+
+  "tut03": {
+    "abstract":	"This is an abstract 3",
+    "title": "This is a	title 3",
+    "authors": [
+      {
+      "affiliation": "NIST",
+      "location": "USA",
+      "name" : "Trisha Kothari",
+      "email": "kotharit@seas.upenn.edu"
+      } 
+    ] 
+  },
+
+  "tut04": {
+    "abstract":	"This is an abstract 4",
+    "title": "This is a	title 4",
+    "authors": [
+      {
+      "affiliation": "NIST",
+      "location": "USA",
+      "name" : "Trisha Kothari",
+      "email": "kotharit@seas.upenn.edu"
+      } 
+    ] 
+  },
+}

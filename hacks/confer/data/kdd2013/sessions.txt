@@ -1,0 +1,238 @@
+Session: Research 1
+Title: Document and topic models
+Paper ID: 980
+Paper ID: 198
+Paper ID: 811
+Paper ID: 528
+
+Session: Research 2
+Title: Social media
+Paper ID: 611
+Paper ID: 722
+Paper ID: 1041
+Paper ID: 1045
+
+Session: Research 3
+Title: Big data frameworks
+Paper ID: 52
+Paper ID: 142
+Paper ID: 914
+
+Session: Research 4
+Title: Graph mining
+Paper ID: 583
+Paper ID: 399
+Paper ID: 1083
+Paper ID: 569
+
+Session: Research 5
+Title: Classification
+Paper ID: 95
+Paper ID: 627
+Paper ID: 572
+Paper ID: 863
+
+Session: Research 6
+Title: Healthcare and bioinformatics
+Paper ID: 543
+Paper ID: 191
+Paper ID: 395
+
+Session: Research 7
+Title: Recommender systems
+Paper ID: 631
+Paper ID: 444
+Paper ID: 293
+
+Session: Research 8
+Title: Temporal/social influence
+Paper ID: 425
+Paper ID: 707
+Paper ID: 18
+
+Session: Research 9
+Title: Sparse learning
+Paper ID: 770
+Paper ID: 1167
+Paper ID: 251
+
+Session: Research 10
+Title: Graph clustering
+Paper ID: 93
+Paper ID: 1186
+Paper ID: 566
+
+Session: Research 11
+Title: Scalable methods for big data
+Paper ID: 773
+Paper ID: 166
+Paper ID: 434
+Paper ID: 577
+
+Session: Research 12
+Title: Diffusion in social networks
+Paper ID: 1163
+Paper ID: 291
+Paper ID: 1006
+Paper ID: 120
+
+Session: Research 13
+Title: Time series and spatial data
+Paper ID: 341
+Paper ID: 511
+Paper ID: 1287
+Paper ID: 131
+
+Session: Research 14
+Title: Unsupervised and topic learning
+Paper ID: 623
+Paper ID: 897
+Paper ID: 503
+Paper ID: 1199
+
+Session: Research 15
+Title: Social and information networks
+Paper ID: 571
+Paper ID: 295
+Paper ID: 1162
+Paper ID: 730
+
+Session: Research 16
+Title: Graph mining and sampling
+Paper ID: 752
+Paper ID: 1024
+Paper ID: 1148
+Paper ID: 249
+
+Session: Research 17
+Title: Rule and pattern mining
+Paper ID: 392
+Paper ID: 668
+Paper ID: 245
+
+Session: Research 18
+Title: Web mining
+Paper ID: 240
+Paper ID: 1205
+Paper ID: 172
+
+Session: Research 19
+Title: Best Papers
+
+Session: Research 20
+Title: Research Poster Session
+Paper ID: 9
+Paper ID: 10
+Paper ID: 40
+Paper ID: 41
+Paper ID: 132
+Paper ID: 137
+Paper ID: 146
+Paper ID: 165
+Paper ID: 179
+Paper ID: 194
+Paper ID: 200
+Paper ID: 211
+Paper ID: 235
+Paper ID: 250
+Paper ID: 261
+Paper ID: 269
+Paper ID: 294
+Paper ID: 301
+Paper ID: 324
+Paper ID: 345
+Paper ID: 347
+Paper ID: 355
+Paper ID: 388
+Paper ID: 408
+Paper ID: 409
+Paper ID: 427
+Paper ID: 454
+Paper ID: 478
+Paper ID: 479
+Paper ID: 510
+Paper ID: 516
+Paper ID: 526
+Paper ID: 550
+Paper ID: 554
+Paper ID: 589
+Paper ID: 596
+Paper ID: 618
+Paper ID: 629
+Paper ID: 685
+Paper ID: 688
+Paper ID: 720
+Paper ID: 724
+Paper ID: 743
+Paper ID: 748
+Paper ID: 761
+Paper ID: 765
+Paper ID: 795
+Paper ID: 797
+Paper ID: 801
+Paper ID: 854
+Paper ID: 884
+Paper ID: 928
+Paper ID: 963
+Paper ID: 1052
+Paper ID: 1076
+Paper ID: 1097
+Paper ID: 1192
+Paper ID: 1202
+Paper ID: 1289
+
+Session: Industry Government 1
+Title: Business & Sports
+Paper ID: 177
+Paper ID: 141
+Paper ID: 470
+Paper ID: 271
+
+Session: Industry Government 2
+Title: Health & Safety
+Paper ID: 53
+Paper ID: 1146
+Paper ID: 700
+Paper ID: 281
+Paper ID: 973
+Paper ID: 780
+
+Session: Industry Government 3
+Title: Experimentation
+Paper ID: 1108
+Paper ID: 998
+Paper ID: 1075
+
+Session: Industry Government 4
+Title: Social Good
+
+Session: Industry Government 5
+Title: Social & Communities
+Paper ID: 756
+Paper ID: 1279
+Paper ID: 247
+Paper ID: 930
+
+Session: Industry Government 6
+Title: Monitoring
+Paper ID: 547
+Paper ID: 242
+Paper ID: 590
+Paper ID: 190
+Paper ID: 51
+
+Session: Industry Government 7
+Title: Security & Privacy
+Paper ID: 769
+Paper ID: 960
+Paper ID: 825
+Paper ID: 1128
+Paper ID: 702
+
+Session: Industry Government 8
+Title: Advertising and Search
+Paper ID: 483
+Paper ID: 416
+Paper ID: 760
+Paper ID: 473
+Paper ID: 546

@@ -1,0 +1,71 @@
+{% extends "layout.html" %}
+{% block links %}
+<span id="logged_in_name"></span> &nbsp;
+<a class="button mobile-nav" href="#">Menu</a>
+<a class="button navitem" href="/">Home</a>
+<a class="button active navitem" href="/{{conf}}/papers">My Papers</a>
+<a class="button navitem" href="/{{conf}}/schedule">My Schedule</a>
+<a class="button navitem" href="/logout">Log Out</a>
+{% endblock %}
+
+{% block content %} 
+
+<div class="blurb">
+Tag papers you want to see and get social recommendations of other papers you may like. The recommendations update automatically as you tag new papers. Just click "Show More" to see more! 
+</div>
+<div class="goto-link">
+<a class="button" href="/{{conf}}/schedule">Go to My Schedule</a>
+</div>	
+<!--- Home Page -->
+<div id="home">
+  <h3 class="collapsible-title collapsible" id="likes_toggle" data="likes_container"><span class="arrow arrow-down"></span>Papers you want to see <span class="count"></span></h3>	
+	<div id="likes_container">
+		<table id="likes" class="paper-container">		
+		</table>
+        <br />
+        <a class="button" id="show_likes">Show All</a> 
+	</div>
+<br />
+<br />
+
+<h3 class="collapsible-title collapsible" id="recs_toggle" data="recs_container"><span class="arrow arrow-down"></span><span>Papers recommended for you</span> <span class="button" id="refresh_recommendations">Refresh</span></h3>
+	<div id="recs_container">
+		<table id="recs" class="paper-container">	
+		</table>
+        <br />
+        <a class="button" id="show_recs" style="margin-right:10px;">Show More</a>
+	</div>
+
+<br />
+<br />
+
+	<h3 class="collapsible-title collapsible" id="papers_toggle" data="all_papers_container"><span class="arrow arrow-down"></span>All Papers <span class="count"></span></h3>
+	<div id="all_papers_container">
+    <div class="search-container">
+      <label id="search_label">Search:</label>
+      <input type="text" id="search_papers" placeholder="Enter paper titles, authors, or keywords" class="search-box"></input>&nbsp;&nbsp;
+      <span class="button" id="search_papers_btn">Search</span>
+    </div>
+		<table id="all_papers" class="paper-container">	
+		</table>
+        <br />
+        <a class="button" id="show_papers" style="margin-right:10px;">Show More</a>
+	</div>
+</div>
+{% endblock %}
+
+{% block javascript %} 
+<!-- Javascript -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#logged_in_name").html(localStorage.getItem('login_name'))
+      	populate_likes()
+      	populate_recs()
+      	populate_papers()
+      	bind_events()
+        //$('.paper-cb').ellipsis()
+        log('papers')
+    });
+</script>
+<script type="text/javascript" src="/static/javascript/confer.js"></script>
+{% endblock %}

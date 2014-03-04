@@ -1,0 +1,38 @@
+schedule=[
+  {
+    "date": "28\/07\/2013",
+    "slots": [
+      {
+        "sessions": [
+          {
+            "session": "tutorial01",
+            "room": "Room 1"
+          },
+          {
+            "session": "tutorial02",
+            "room": "Room 2"
+          }
+        ],
+        "slot_class": "morning1 morning2 afternoon1 afternoon2",
+        "slot_id": "Sunday1",
+        "time": "08:30-17:30"
+      },
+      {
+        "sessions": [
+          {
+            "session": "tutorial03",
+            "room": "Room 3"
+          },
+          {
+            "session": "tutorial04",
+            "room": "Room 4"
+          },
+        ],
+        "slot_class": "morning1 morning2",
+        "slot_id": "Sunday2",
+        "time": "08:30-12:15"
+      },
+      ]
+      }
+      ]
+      

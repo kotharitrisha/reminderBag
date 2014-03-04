@@ -1,0 +1,84 @@
+[
+	{"model": "server.Conference",
+	    "pk": 1,
+	    "fields": {
+	      "unique_name": "chi2013",
+	      "confer_name": "mychi",
+	      "title": "CHI '13 - ACM CHI Conference on Human Factors in Computing Systems",
+	      "subtitle": "Changing Perspective",
+	      "blurb": "The ACM Conference on Human Factors in Computing Systems (CHI) series of academic conferences is generally considered the most prestigious in the field of human-computer interaction. It is hosted by ACM SIGCHI, the Special Interest Group on Computer-Human Interaction. CHI has been held annually since 1982 and attracts thousands of international attendees.",
+	      "location": "Paris, France",
+	      "start_date": "2013-04-27",
+	      "end_date": "2013-05-02"
+	  	}
+	},
+	
+	{"model": "server.Conference",
+	    "pk": 2,
+	    "fields": {
+	      "unique_name": "sigmod2013",
+	      "confer_name": "mysigmod",
+	      "title": "SIGMOD/PODS'13 - ACM International Conference on Management of Data",
+	      "subtitle": "",
+	      "blurb": "The annual ACM SIGMOD/PODS conference is a leading international forum for database researchers, practitioners, developers, and users to explore cutting-edge ideas and results, and to exchange techniques, tools, and experiences.",
+	      "location": "New York, US",
+	      "start_date": "2013-06-22",
+	      "end_date": "2013-06-27"
+	  	}
+	},
+
+	{"model": "server.Conference",
+	    "pk": 3,
+	    "fields": {
+	      "unique_name": "sigir2013",
+	      "confer_name": "mysigir",
+	      "title": "SIGIR'13 - ACM International Conference on Research and Development in Information Retrieval",
+	      "subtitle": "",
+	      "blurb": "SIGIR is the Association for Computing Machinery's Special Interest Group on Information Retrieval. The scope of the group's specialty is the theory and application of computers to the acquisition, organization, storage, retrieval and distribution of information; emphasis is placed on working with non-numeric information, ranging from natural language to highly structured databases.",
+	      "location": "Dublin, Ireland",
+	      "start_date": "2013-07-27",
+	      "end_date": "2013-08-01"
+	  	}
+	},
+
+	{"model": "server.Conference",
+	    "pk": 4,
+	    "fields": {
+	      "unique_name": "ijcai2013",
+	      "confer_name": "myijcai",
+	      "title": "IJCAI'13 - International Joint Conference on Artificial Intelligence",
+	      "subtitle": "",
+	      "blurb": "IJCAI 2013 is the 23rd International Joint Conference on Artificial Intelligence. For the first time in IJCAI’s 44 year history, it is hosted in Beijing, China, on August 3-9, 2013. IJCAI is the main and oldest international event covering all aspects of Artificial Intelligence. It is also one of the most active, with presentations, workshops, tutorials, panels, and competitions spanning all areas of AI.",
+	      "location": "Beijing, China",
+	      "start_date": "2013-08-03",
+	      "end_date": "2013-08-09"
+	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 5,
+	    "fields": {
+	      "unique_name": "kdd2013",
+	      "confer_name": "mykdd",
+	      "title": "KDD'13 - The 19th ACM SIGKDD Conference on Knowledge Discovery and Data Mining",
+	      "subtitle": "",
+	      "blurb": "The annual ACM SIGKDD conference is the premier international forum for data mining and big data researchers and practitioners from academia, industry, and government to share their ideas, research results and experiences. KDD-2013 will feature keynote presentations, oral paper presentations, poster sessions, workshops, tutorials, panels, exhibits, demonstrations, and the KDD Cup competition.",
+	      "location": "Chicago, US",
+	      "start_date": "2013-08-11",
+	      "end_date": "2013-08-14"
+	  	}
+	},
+	{"model": "server.Conference",
+	    "pk": 6,
+	    "fields": {
+	      "unique_name": "ictir2013",
+	      "confer_name": "myictir",
+	      "title": "ICTIR'13 - 4th International Conference on the Theory of Information Retrieval",
+	      "subtitle": "",
+	      "blurb": "ICTIR is the premier conference of theoretical information retrieval (IR), covering a broad spectrum of diverse research areas that are concerned with mathematical/formal aspects of IR, including foundational issues, description or integration of models, retrieval applications, mathematical/formal techniques, existing and/or new theories and theoretical aspects.",
+	      "location": "Copenhagen, Denmark",
+	      "start_date": "2013-09-29",
+	      "end_date": "2013-10-02"
+	  	}
+	}
+]
+  

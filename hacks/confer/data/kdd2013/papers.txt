@@ -1,0 +1,620 @@
+Paper ID: 980
+Title: One Theme in All Views: Modeling Consensus Topics in Multiple Contexts
+Authors: Jian Tang, Peking University; Ming Zhang, ; Qiaozhu Mei, University of Michigan
+
+Paper ID: 198
+Title: Representing Documents Through Their Readers
+Authors: Khalid El-Arini, Carnegie Mellon University; Min Xu, Carnegie Mellon University; Emily Fox, University of Washington; Carlos Guestrin, University of Washington
+
+Paper ID: 811
+Title: Text-Based Measures of Document Diversity
+Authors: Kevin Bache, University of California, Irvine; Padhraic Smyth, UC Irvine; David Newman, University of California, Irvine
+
+Paper ID: 528
+Title: Diversity Maximization Under Matroid Constraints
+Authors: Zeinab Abbassi, Columbia University; Vahab Mirrokni, Google; Mayur Thakur, Google
+
+Paper ID: 611
+Title: Connecting Users across Social Media Sites: A Behavioral-Modeling Approach
+Authors: Reza Zafarani, Arizona State University; Huan Liu, Arizona State University
+
+Paper ID: 722
+Title: Automatic selection of social media responses to news
+Authors: Tadej _tajner, Jo_ef Stefan Institute; Bart Thomee, Yahoo! Research; Ana Maria Popescu, Yahoo! Labs; Marco Pennacchiotti, eBay Inc.; Alejandro Jaimes, Yahoo!
+
+Paper ID: 1041
+Title: Estimating Unbiased Sharer Reputation via Social Data Calibration
+Authors: Jaewon Yang, Stanford University; Bee-Chung Chen, LinkedIn; Deepak Agarwal, LinkedIn
+
+Paper ID: 1045
+Title: Linking Named Entities in Tweets with Knowledge Base via User Interest Modeling
+Authors: Wei Shen, Tsinghua University; Jianyong Wang, Tsinghua University; Ping Luo, HP Lab; Min Wang, Google Research
+
+Paper ID: 52
+Title: TurboGraph: A Fast Parallel Graph Engine Handling Billion-scale Graphs in a Single PC
+Authors: Wook-Shin Han, POSTECH; Sangyeon Lee, POSTECH; Kyungyeol Park, POSTECH; Jeong-Hoon Lee, POSTECH; Min-Soo Kim, DGIST; Jinha Kim, POSTECH; Hwanjo Yu, POSTECH
+
+Paper ID: 142
+Title: A Probabilistic Framework for Big Data Pipelines
+Authors: Karthik Raman, Cornell University; Adith Swaminathan, Cornell University; Thorsten Joachims, Cornell; Johannes Gehrke, Cornell University
+
+Paper ID: 914
+Title: Big Data Analytics with Small Footprint: Squaring the Cloud
+Authors: John Canny, UC Berkeley; Huasha Zhao, UC Berkeley
+
+Paper ID: 583
+Title: Denser than the densest subgraph: extracting optimal quasi-cliques with quality guarantees
+Authors: Charalampos Tsourakakis, Carnegie Mellon University; Francesco Bonchi, Yahoo! Research; Aristides Gionis, Aalto University; Francesco Gullo, Yahoo! Research; Maria Tsiarli, University of Pittsburgh
+
+Paper ID: 399
+Title: Guided Learning for Role Discovery (GLRD): Framework, Algorithms, and Applications
+Authors: Sean Gilpin, U.C. Davis; Tina Eliassi-Rad, ; Ian Davidson, University of California -- Davis
+
+Paper ID: 1083
+Title: Redundancy-Aware Maximal Cliques
+Authors: Jia Wang, Chinese University of Hong Kong; James Cheng, Chinese University of Hong Kong; Ada Wai-Chee Fu, Chinese University of Hong Kong
+
+Paper ID: 569
+Title: Selective Sampling on Graphs for Classification
+Authors: Quanquan Gu, CS, UIUC; Charu Aggarwal, IBM Research; Jialu Liu, UIUC; Jiawei Han, University of Illinois at Urbana-Champaign
+
+Paper ID: 95
+Title: Density-Based Logistic Regression
+Authors: Wenlin Chen, Yixin Chen, Washington University in St Louis; Yi Mao, Baolong Guo, Xidian University
+
+Paper ID: 627
+Title: MILS: Multi-Instance Learning from Multiple Information Sources
+Authors: Dan Zhang, Purdue University; Jingrui He, Stevens Institute of Technolog; Richard Lawrence, IBM Research
+
+Paper ID: 572
+Title: Querying Discriminative and Representative Samples for Batch Mode Active Learning
+Authors: Zheng Wang, Arizona State University; Jieping Ye, Arizona State University
+
+Paper ID: 863
+Title: SVM_{pAUC}^{tight}: A New Support Vector Method for Optimizing Partial AUC Based on a Tight Convex Upper Bound
+Authors: Harikrishna Narasimhan, Indian Institute of Science; Shivani Agarwal, Indian Institute of Science, Bangalore
+
+Paper ID: 543
+Title: Succinct Interval-Splitting Tree for Scalable Similarity Search of Compound-Protein Pairs with Property Constraints
+Authors: Yasuo Tabei, JST; Akihiro Kishimoto, IBM Research, Dublin; Masaaki Kotera, Kyoto University; Yoshihiro Yamanishi, Kyushu university
+
+Paper ID: 191
+Title: Multi-Source Learning with Block-wise Missing Data For Alzheimer's Disease Prediction
+Authors: Shuo Xiang, Arizona State University; Lei Yuan, Arizona State University; Wei Fan, IBM Research; Yalin Wang, ; Paul Thompson, ; Jieping Ye, Arizona State University
+
+Paper ID: 395
+Title: Network Discovery via Constrained Tensor Analysis of fMRI Data
+Authors: Ian Davidson, University of California -- Davis
+
+Paper ID: 631
+Title: Learning to question: Leveraging user preferences for shopping advice
+Authors: Mahashweta Das, Univ of Texas at Arlington; Gianmarco De Francisci Morales, Yahoo! Research; Aristides Gionis, Aalto University; Ingmar Weber, Qatar Computing Research Institute
+
+Paper ID: 444
+Title: Active Learning and Search on Low-Rank Matrices
+Authors: Dougal Sutherland, Carnegie Mellon University; Barnabas Poczos, Carnegie Mellon University; Jeff Schneider,
+
+Paper ID: 293
+Title: LCARS: A Location-Content-Aware Recommender System
+Authors: Hongzhi Yin, Peking University; Yizhou Sun, ; Bin Cui, Peking University; Zhiting Hu, ; Ling Chen
+
+Paper ID: 425
+Title: Discovering Latent Influence in Online Social Activities via Shared Cascade Poisson Processes
+Authors: Tomoharu Iwata, NTT Communication Science Laboratories; Amar Shah, University of Cambridge; Zoubin Ghahramani, Cambridge University
+
+Paper ID: 707
+Title: STRIP: Stream Learning of Influence Probabilities
+Authors: Konstantin Kutzkov, University of Copenhagen; Albert Bifet, Yahoo! Research; Francesco Bonchi, Yahoo! Research; Aristides Gionis, Aalto University
+
+Paper ID: 18
+Title: Fast Structure Learning in Generalized Stochastic Processes with Latent Factors
+Authors: Mohammad Taha Bahadori, University of Southern Califor; Yan Liu, University of Southern California; Eric Xing, CMU
+
+Paper ID: 770
+Title: Robust Sparse Estimation of Multiresponse Regression and Inverse Covariance Matrix via the L2 distance
+Authors: Aurelie Lozano, IBM Research; Huijing Jiang, IBM Research; Xinwei Deng, Virginia Tech
+
+Paper ID: 1167
+Title: Exact Sparse Recovery with L0 Projections
+Authors: Ping Li, Cornell University; Cun-Hui Zhang, Rutgers University
+
+Paper ID: 251
+Title: Robust Principal Component Analysis via Capped Norms
+Authors: Qian Sun, Arizona State University; Shuo Xiang, Arizona State University; Jieping Ye, Arizona State University
+
+Paper ID: 93
+Title: Flexible and Robust Co-regularized Multi-Domain Graph Clustering
+Authors: Wei Cheng, UNC at Chapel Hill; xiang Zhang, Case Western Reserve University; Patrick Sullivan, UNC at Chapel Hill; Wei Wang, University of California, Los Angeles
+
+Paper ID: 1186
+Title: Clustered Graph Randomization: Network Exposure to Multiple Universes
+Authors: Johan Ugander, Cornell University; Brian Karrer, Facebook; Lars Backstrom, Facebook; Jon Kleinberg, Cornell
+
+Paper ID: 566
+Title: Social Influence Based Clustering of Heterogeneous Information Networks
+Authors: Yang Zhou, Georgia Institute of Technology; Ling Liu, Georgia Institute of Technology
+
+Paper ID: 773
+Title: Comparing Apples to Oranges: A Scalable Solution with Heterogeneous Hashing
+Authors: Mingdong Ou, Tsinghua University; Peng Cui, Tsinghua University; Fei Wang, IBM T. J. Watson Research Lab; Jun Wang, IBM Research
+
+Paper ID: 166
+Title: Fast and Scalable Polynomial Kernels via Explicit Feature Maps
+Authors: Ninh Pham, IT University of Copenhagen; Rasmus Pagh, IT University of Copenhagen
+
+Paper ID: 434
+Title: Indexed Block Coordinate Descent for Large-Scale Linear Classification with Limited Memory
+Authors: En-Hsu Yen, National Taiwan University; Chun-Fu Chang, National Taiwan University; Ting-Wei Lin, National Taiwan University; Shan-Wei Lin, National Taiwan University; Shou-De Lin, National Taiwan University
+
+Paper ID: 577
+Title: Recursive Regularization for Large-scale Classification with Hierarchical and Graphical Dependencies
+Authors: Siddharth Gopal, CMU; Yiming Yang, CMU
+
+Paper ID: 1163
+Title: Confluence: Conformity Influence in Large Social Networks
+Authors: Jie Tang, Tsinghua University; Sen Wu, Tsinghua University; Jimeng Sun, IBM Research
+
+Paper ID: 291
+Title: The Role of Information Diffusion in the Evolution of Social Networks
+Authors: Lilian Weng, Indiana University; Jacob Ratkiewicz, Google Inc.; Nicola Perra, Northeastern University; Bruno Goncalves, Aix-Marseille Universite; Carlos Castillo, Qatar Computing Research Institute; Francesco Bonchi, Yahoo! Research; Rossano Schifanella, Universita degli Studi di Torino, Italy; Filippo Menczer, Indiana University; Alessandro Flammini, Indiana University
+
+Paper ID: 1006
+Title: Information Cascade at Group Scale
+Authors: Milad Eftekhar, University of Toronto; Yashar Ganjali, University of Toronto; Nick Koudas, University of Toronto
+
+Paper ID: 120
+Title: Extracting Social Events for Learning Better Information Diffusion Models
+Authors: Shuyang Lin, UIC; Fengjiao Wang, University of Illinois at Chic; Qingbo Hu, University of Illinois at Chicago; Philip Yu, University of Illinois at Chicago
+
+Paper ID: 341
+Title: Model Selection in Markovian Processes
+Authors: Assaf Hallak, The Technion; Dotan Di-Castro, Technion; Shie Mannor, Technion
+
+Paper ID: 511
+Title: DTW-D: Time Series Semi-Supervised Learning from a Single Example
+Authors: Yanping Chen, UCR; Bing Hu, ; Eamonn Keogh, University of California -- Riverside; Gustavo Batista,
+
+Paper ID: 1287
+Title: Model-based Kernel for Efficient Time Series Analysis
+Authors: Huanhuan Chen, University of Birmingham; Fengzhen Tang, University of Birmingham; Peter Tino, University of Birmingham; Xin Yao, University of Birmingham
+
+Paper ID: 131
+Title: Mining Lines in the Sand: On Trajectory Discovery From Untrustworthy Data in Cyber-Physical System
+Authors: Lu-An Tang, UIUC; Xiao Yu, University of Illinois at Urbana-Champaign; Quanquan Gu, CS, UIUC; Jiawei Han, UIUC; Alice Leung, BBN; Thomas La Porta, PSU
+
+Paper ID: 623
+Title: A General Bootstrap Performance Diagnostic
+Authors: Ariel Kleiner, ; Ameet Talwalkar, UC Berkeley; Sameer Agarwal, ; Michael Jordan, ; Ion Stoica,
+
+Paper ID: 897
+Title: Subsampling for Efficient and Effective Unsupervised Outlier Detection Ensembles
+Authors: Arthur Zimek, University of Alberta; Matthew Gaudet, University of Alberta; Ricardo J. G. Campello, University of Alberta; Jorg Sander, University of Alberta
+
+Paper ID: 503
+Title: A Phrase Mining Framework for Recursive Construction of a Topical Hierarchy
+Authors: Chi Wang, University of Illinois; Marina Danilevsky, University of Illinois; Nihit Desai, University of Illinois at Urbana-Champaign; Yinan Zhang, University of Illinois at Urbana-Champaign; Phuong Nguyen, University of Illinois at Urbana-Champaign; Thrivikrama Taula, University of Illinois at Urbana-Champaign; Jiawei Han, University of Illinois at Urbana-Champaign
+
+Paper ID: 1199
+Title: Stochastic Collapsed Variational Bayesian Inference for Latent Dirichlet Allocation
+Authors: James Foulds, UC Irvine; Levi Boyles, UC Irvine; Christopher Dubois, UC Irvine; Padhraic Smyth, UC Irvine; max Welling, University of Amsterdam
+
+Paper ID: 571
+Title: WiseMarket: A New Paradigm for Managing Wisdom of Online Social Users
+Authors: Chen Cao, HKUST; Yongxin Tong, HKUST; Lei Chen, HKUST; H.V. Jagadish, University of Michigan
+
+Paper ID: 295
+Title: Multi-Label Relational Neighbor Classification using Social Context Features
+Authors: Xi Wang, University of Central Florida; Gita Sukthankar, University of Central Florida
+
+Paper ID: 1162
+Title: Scalable Text and Link Analysis with Mixed-Topic Link Models
+Authors: YAOJIA ZHU, University of New Mexico; Xiaoran Yan, University of New Mexico; Lise Getoor, The University of Maryland College Park; Cristopher Moore, Santa Fe Institute
+
+Paper ID: 730
+Title: Collaborative Boosting for Activity Classification in Microblogs
+Authors: Yangqiu Song, HKUST; Zhengdong Lu, Huawei; Cane Wing-Ki Leung, Huawei; Qiang Yang, Hong Kong University of Science and Technology
+
+Paper ID: 752
+Title: Trace Complexity of Network Inference
+Authors: Bruno Abrahao, Cornell; Flavio Chierichetti, Sapienza University; Robert Kleinberg, Cornell; Alessandro Panconesi, Sapienza University of Rome
+
+Paper ID: 1024
+Title: Debiasing Social Wisdom
+Authors: Abhimanyu Das, Microsoft; Sreenivas Gollapudi, Microsoft Research; Rina Panigrahy, Microsoft Research; Mahyar Salek, Microsoft
+
+Paper ID: 1148
+Title: Mining Discriminative Subgraphs from Global-state Networks
+Authors: Sayan Ranu, IBM; Minh Hoang, UC Santa Barbara; Ambuj Singh, UC Santa Barbara
+
+Paper ID: 249
+Title: Approximate Graph Mining with Label Costs
+Authors: Pranay Anchuri, RPI; Mohammed Zaki, Rensselaer Polytechnic Institute; Omer Barkol, HP Labs; Shahar Golan, HP Labs; Moshe Shamy, HP Labs
+
+Paper ID: 392
+Title: Summarizing Probabilistic Frequent Patterns: A Fast Approach
+Authors: Chunyang Liu, UTS; Ling Chen, ; Chengqi Zhang, QCIS, University of Technology, Sydney
+
+Paper ID: 668
+Title: Mining High Utility Episodes in Complex Event Sequences
+Authors: Cheng-Wei Wu, National Cheng Kung University; Yu Feng Lin, National Cheng Kung University, Taiwan, ROC; Philip Yu, University of Illinois; Vincent Tseng, National Cheng Kung University
+
+Paper ID: 245
+Title: Mining Frequent Graph Patterns with Differential Privacy
+Authors: Entong Shen, North Carolina State Univ; Ting Yu, North Carolina State University
+
+Paper ID: 240
+Title: Statistical Quality Estimation for General Crowdsourcing Tasks
+Authors: Yukino Baba, The University of Tokyo; Hisashi Kashima, The University of Tokyo
+
+Paper ID: 1205
+Title: Exploring Consumer Psychology for Click Prediction in Sponsored Search
+Authors: Taifeng Wang, Microsoft; Jiang Bian, ; Tie-Yan Liu, Microsoft Research
+
+Paper ID: 172
+Title: SiGMa: Simple Greedy Matching for Aligning Large Knowledge Bases
+Authors: Simon Lacoste-Julien, INRIA / ENS; Konstantina Palla, University of Cambridge; Alex Davies, University of Cambridge; Gjergji Kasneci, Microsoft Research; Thore Graepel, Microsoft Research; Zoubin Ghahramani, Cambridge University
+
+Paper ID: 9
+Title: Where, When and What: Discover Spatio-Temporal Topics for Twitter Users
+Authors: Quan Yuan, Nanyang Technological Univ.; Gao Cong, Nanyang Technological University; Zongyang Ma, Nanyang Technological University; Aixin Sun, Nanyang Technological University; Nadia Thalmann, Nanyang Technological University
+
+Paper ID: 10
+Title: Multi-Label Classification by Mining Label and Instance Correlations from Heterogeneous Information Networks
+Authors: Xiangnan Kong, Univ. of Illinois at Chicago; Bokai Cao, Renmin University of China; Philip Yu, University of Illinois
+
+Paper ID: 40
+Title: Accurate Intelligible Models with Pairwise Interactions
+Authors: Yin Lou, Cornell University; Rich Caruana, Microsoft Research; Johannes Gehrke, Cornell University; Giles Hooker, Cornell University
+
+Paper ID: 41
+Title: Spotting Opinion Spammers using Behavioral Footprints
+Authors: ARJUN MUKHERJEE, UIC; Abhinav Kumar, ; Bing Liu, ; Junhui Wang, ; meichun Hsu, ; Malu Castellanos, ; riddhiman Ghosh,
+
+Paper ID: 132
+Title: An Efficient ADMM Algorithm for Multidimensional Anisotropic Total Variation Regularization Problems
+Authors: Sen Yang, Arizona State University; Jie Wang, Arizona State University; Wei Fan, IBM Research; Xiatian Zhang, Huawei Technologies Co., Ltd; Peter Wonka, Arizona State University; Jieping Ye, Arizona State University
+
+Paper ID: 137
+Title: Speeding up Large-Scale Learning with a Social Prior
+Authors: Deepayan Chakrabarti, Facebook; Ralf Herbrich,
+
+Paper ID: 146
+Title: FISM: Factored Item Similarity Models for Top-N Recommender Systems
+Authors: Santosh Kabbur, University of Minnesota; George Karypis, University of Minnesota
+
+Paper ID: 165
+Title: Nonparametric Hierarchal Bayesian Modeling in Non-contractual Heterogeneous Survival Data
+Authors: Shouichi Nagano, NTT; Yusuke Ichikawa, NTT; Noriko Takaya, NTT; Tadasu Uchiyama, NTT; Makoto Abe, Tokyo University
+
+Paper ID: 179
+Title: Cross-Task Crowdsourcing
+Authors: Kaixiang Mo, HKUST; Erheng Zhong, HKUST; Qiang Yang, Hong Kong University of Science and Technology
+
+Paper ID: 194
+Title: Evaluating the Crowd with Confidence
+Authors: Manas Joglekar, Stanford University; Hector Garcia-Molina, Stanford University; Aditya Parameswaran, Stanford University
+
+Paper ID: 200
+Title: Inferring Social Roles and Statuses in Social Networks
+Authors: Yuchen Zhao, UIC; Guan Wang, Univ. of Illinois at Chicago; Philip Yu, University of Illinois; Shaobo Liu, Linkedin; Simon Zhang, Linkedin
+
+Paper ID: 211
+Title: Adaptive Collective Routing Using Gaussian Process Dynamic Congestion Models
+Authors: Siyuan Liu, CMU; Yisong Yue, Carnegie Mellon University; Ramayya Krishnan, Carnegie Mellon University
+
+Paper ID: 235
+Title: Maximizing Acceptance Probability for Active Friending in On-Line Social Networks
+Authors: De-Nian Yang, Academia Sinica; Hui-Ju Hung, Academia Sinica; Wang-Chien Lee, ; Wei Chen, Microsoft Research
+
+Paper ID: 250
+Title: Mining Evolutionary Multi-Branch Trees from Text Streams
+Authors: Xiting Wang, Tsinghua University; Yangqiu Song, HKUST; Shixia Liu, Microsoft Research; Baining Guo, Microsoft Research Asai
+
+Paper ID: 261
+Title: Active Search on Graphs
+Authors: Xuezhi Wang, Carnegie Mellon University; Jeff Schneider, ; Roman Garnett,
+
+Paper ID: 269
+Title: Fast Rank-2 Nonnegative Matrix Factorization for Hierarchical Document Clustering
+Authors: Da Kuang, Georgia Institute of Technology; Haesun Park, Georgia Institute of Technology
+
+Paper ID: 294
+Title: Probabilistic Path Prediction in Dynamic Environments
+Authors: Jingbo Zhou, NUS; Anthony TUNG , SoC,NUS; Wei Wu, I2R, Astar; Wee Siong Ng, I2R, Astar
+
+Paper ID: 301
+Title: Optimizing Parallel Belief Propagation in Junction Trees: Using Regression
+Authors: Lu Zheng, Carnegie Mellon University; Ole Mengshoel, Carnegie Mellon University
+
+Paper ID: 324
+Title: Multi-Source Deep Learning for Information Trustworthiness Estimation
+Authors: Liang Ge, University at Buffalo; Jing Gao, Univ. of Buffalo; Xiaoyi Li, The State University of New York; Aidong Zhang, University at Buffalo
+
+Paper ID: 345
+Title: Unsupervised Link Prediction Using Aggregative Statistics on Heterogeneous Social Networks
+Authors: Tsung-Ting Kuo, National Taiwan University; Rui Yan, Peking University; Yu-Yang Huang, National Taiwan University; Perng-Hwa Kung, National Taiwan University; Shou-De Lin, National Taiwan University
+
+Paper ID: 347
+Title: Link Prediction with Social Vector Clocks
+Authors: Conrad Lee, University College Dublin; Bobo Nick, Konstanz Universitat; Ulrik Brandes, Konstanz Universitat; Padraig Cunningham, University College Dublin
+
+Paper ID: 355
+Title: Geo-Spotting: Mining Online Location-based Services for Optimal Retail Store Placement
+Authors: Dmytro Karamshuk, University of Cambridge; Anastasios Noulas, University of Cambridge; Salvatore Scellato, University of Cambridge; Vincenzo Nicosia, University of Cambridge; Cecilia Mascolo, University of Cambridge
+
+Paper ID: 388
+Title: Location-Aware Publish/Subscribe
+Authors: Guoliang Li, Tsinghua Univeristy
+
+Paper ID: 408
+Title: Quadratic Optimization to Identify Highly Heritable Quantitative Traits from Complex Disease Features
+Authors: Jiangwen Sun, University of Connecticut; Jinbo Bi, University of Connecticut; Henry Kranzler, University of Pennsylvania
+
+Paper ID: 409
+Title: Repetition-Aware Content Placement in Navigational Networks
+Authors: Dora Erdos, Boston University; Vatche Ishakian, Boston University; Evimaria Terzi, Boston University; Azer Bestavros, Boston University
+
+Paper ID: 427
+Title: Metric All-Pairs Similarity Search on MapReduce
+Authors: Ye Wang, OSU; Ahmed Metwally, Google Inc.; Srinivasan Parthasarathy, The Ohio State University
+
+Paper ID: 454
+Title: Massively Parallel Expectation Maximization Using Graphics Processing Units
+Authors: Muzaffer Can Altinigneli, University of Munich; Claudia Plant, Helmholtz Center Munich; Christian Bohm, University of Munich
+
+Paper ID: 478
+Title: Auto-WEKA: Combined Selection and Hyperparameter Optimization of Classification Algorithms
+Authors: Chris Thornton, UBC; Frank Hutter, UBC; Holger Hoos, UBC; Kevin Leyton-Brown, UBC
+
+Paper ID: 479
+Title: Direct Optimization of Ranking Measures for Learning to Rank Models
+Authors: Ming Tan, Wright State University; Tian Xia, Wright State University; Lily Guo, Wright State University; Shaojun Wang, Wright State University
+
+Paper ID: 510
+Title: Multi-space Probabilistic Sequence Modeling
+Authors: Shuo Chen, Dept. of Computer Science, Cornell University; Jiexun Xu, Dept. of Computer Science, Cornell University; Thorsten Joachims, Cornell
+
+Paper ID: 516
+Title: Towards Never-Ending Learning from Time Series Streams
+Authors: Yuan Hao, Univ of California, Riverside; Yanping Chen, UCR; Jesin Zakaria, ; Bing Hu, ; Thanawin Rakthanmanon, ; Eamonn Keogh, University of California -- Riverside
+
+Paper ID: 526
+Title: Constrained Stochastic Gradient Descent for Large-scale Least Squares Problem
+Authors: Yang Mu, UMass Boston; Wei Ding, University of Massachusetts Boston; Tianyi Zhou, University of Technology Sydney; Dacheng Tao, University of Technology Sydney
+
+Paper ID: 550
+Title: Making Recommendations from Multiple Domains
+Authors: Wei Chen, National University of Singapore; Wynne Hsu, National University of Singapore; Mong-Li Lee, National University of Singapore
+
+Paper ID: 554
+Title: Cascading Outbreak Prediction in Networks: A Data-Driven Approach
+Authors: Shifei JIN, Tsinghua University; Peng Cui, Tsinghua University; Linyun Yu, Tsinghua University; Fei Wang, IBM T. J. Watson Research Lab; Shiqiang Yang, Tsinghua University
+
+Paper ID: 589
+Title: Combining Latent Factor Model with Location Features for Event-based Group Recommendation
+Authors: Wei Zhang, Department of Computer Science; Jianyong Wang, Tsinghua University
+
+Paper ID: 596
+Title: Cost-Sensitive Online Active Learning with Application to Malicious URL Detection
+Authors: Peilin ZHAO, Nanyang Technological University; Steven Hoi, Nanyang Technological University, Singapore.
+
+Paper ID: 618
+Title: The Bang for the Buck: Fair Competitive Viral Marketing from the Host Perspective
+Authors: Wei Lu, University of British Columbia; Francesco Bonchi, Yahoo! Research; Amit Goyal, University of British Columbia; Laks V.S. Lakshmanan,
+
+Paper ID: 629
+Title: Modeling the Dynamics of Composite Social Networks
+Authors: Erheng Zhong, HKUST; Wei Fan, IBM Research; Yin Zhu, ; Qiang Yang, Hong Kong University of Science and Technology
+
+Paper ID: 685
+Title: Time-Dependent Loss Enhanced SVM for Time Series Regression
+Authors: Goce Ristanoski, The University of Melbourne; Wei Liu, The University of Melbourne; James Bailey, The University of Melbourne
+
+Paper ID: 688
+Title: A New Collaborative Filtering Approach for Increasing the Aggregate Diversity of Recommender Systems
+Authors: Katja Niemann, Fraunhofer FIT; Martin Wolpers, Fraunhofer Institute for Applied Information Technology
+
+Paper ID: 720
+Title: Scalable Inference in Max-margin Supervised Topic Models
+Authors: Jun Zhu, Tsinghua University; Xun Zheng, Beihang University; Li Zhou, Tsinghua University; Zhang Bo, Tsinghua University
+
+Paper ID: 724
+Title: A Data-driven Method for In-game Decision Making in MLB
+Authors: Gartheeban Ganeshapillai, Massachusetts Institute of Tec; John Guttag, Massachusetts Institute of Technology
+
+Paper ID: 743
+Title: Exploiting User Clicks for Automatic Seed Set Generation for Entity Matching
+Authors: Xiao Bai, Yahoo! Research Barcelona; Srinivasan Sengamedu, Komli Labs; Flavio Junqueira, Microsoft Research
+
+Paper ID: 748
+Title: Silence is also evidence: Interpreting dwell time for recommendation from Psychological Perspective
+Authors: Peifeng Yin, Pennsylvania State University; Ping Luo, HP Lab; Wang-Chien Lee, ; Min Wang, Google Research
+
+Paper ID: 761
+Title: Efficient Single-Source Shortest Path and Distance Queries on Large Graphs
+Authors: Xiaokui Xiao, Nanyang Technological University ; Andy Diwen Zhu, Nanyang Technological University; Sibo Wang, Nanyang Technological University; Wenqing Lin, Nanyang Technological University
+
+Paper ID: 765
+Title: On Community Detection in Real-World Networks and the Importance of Degree Assortativity
+Authors: Marek Ciglan, IISAS; Kjetil Norvag, NTNU; Michal Laclavik, IISAS
+
+Paper ID: 795
+Title: Trial and Error in Influential Social Networks
+Authors: Xiaohui Bei, Nanyang Technological University; Ning Chen, Nanyang Technological Univ; Liyu Dou, Nanyang Technological University; Xiangru Huang, Shanghai Jiao Tong University; Ruixin Qiang, Shanghai Jiao Tong University
+
+Paper ID: 797
+Title: Collaborative Matrix Factorization with Multiple Similarities for Predictin Drug-Target Interactions
+Authors: Xiaodong Zheng, Fudan University; Hao Ding, Fudan University; Hiroshi Mamitsuka, Kyoto University; Shanfeng Zhu, Fudan University
+
+Paper ID: 801
+Title: FeaFiner: Biomarker Identification from Medical Data through Feature Generalization and Selection
+Authors: Jiayu Zhou, Arizona State University; Zhaosong Lu, Simon Fraser University; Jimeng Sun, IBM Research ; Lei Yuan, Arizona State University; Fei Wang, IBM T. J. Watson Research Lab; Jieping Ye, Arizona State University
+
+Paper ID: 854
+Title: Learning Geographical Preferences for Point-of-Interest Recommendation
+Authors: Bin Liu, Rutgers Univ; Yanjie Fu, Rutgers University; ZIjun Yao, Rutgers Univ; Hui Xiong, Rutgers, the State University of New Jersey
+
+Paper ID: 884
+Title: Learning Mixed Kronecker Product Graph Models with Simulated Method of Moments
+Authors: Sebastian Moreno, Purdue University; Jennifer Neville, Purdue University; Sergey Kirshner, Purdue University
+
+Paper ID: 928
+Title: Measuring spontaneous devaluations in user preferences
+Authors: Komal Kapoor, University of Minnesota Twin C; Nisheeth Srivastava, ; Jaideep Srivastava, University of Minnesota; Paul Schrater, University of Minnesota Twin Cities
+
+Paper ID: 963
+Title: Mining Evidences for Named Entity Disambiguation
+Authors: Yang Li, University of California Santa Barbara; Chi Wang, University of Illinois; Fangqiu Han, University of California Santa Barbara; Jiawei Han, University of Illinois at Urbana-Champaign; Dan Roth, UIUC; Xifeng Yan, University of California at Santa
+
+Paper ID: 1052
+Title: Privacy-Preserving Data Exploration in Genome-Wide Association Studies
+Authors: Aaron Johnson, U.S. Naval Research Laboratory; Vitaly Shmatikov, The University of Texas at Austin
+
+Paper ID: 1076
+Title: Synthetic Review Spamming and Defense
+Authors: Alex Morales, ; Huan Sun, UCSB; Xifeng Yan, University of California at Santa Barbara
+
+Paper ID: 1097
+Title: Information Cartography: Creating Zoomable, Large-Scale Maps of Information
+Authors: Dafna Shahaf, Stanford; Jaewon Yang, Stanford University; Caroline Suen, ; Jeff Jacobs, ; Heidi Wang, ; Jure Leskovec, Stanford University
+
+Paper ID: 1192
+Title: Restreaming Graph Partitioning: Simple Versatile Algorithms for Advanced Balancing
+Authors: Joel Nishimura, Cornell University; Johan Ugander, Cornell University
+
+Paper ID: 1202
+Title: Understanding Evolution of Research Themes: A Probabilistic Generative Model for Citations
+Authors: Xiaolong Wang, UIUC; ChengXiang Zhai, UIUC; Dan Roth, UIUC
+
+Paper ID: 1289
+Title: Discriminant Low-Rank Regression: On The Equivalence of Low-Rank Regression and Discriminant Analysis
+Authors: Xiao Cai, Chris Ding, Feiping Nie, Heng Huang, University of Texas, Arlington
+
+Paper ID: 177
+Title: Assessing Team Strategy using Spatiotemporal Data
+Authors: Patrick Lucey, Disney Research Pittsburgh; Dean Oliver, ESPN; Iain Matthews, Disney Research; Peter Carr, Disney Research; Joe Roth, Disney Research
+
+Paper ID: 141
+Title: Financing Lead Triggers: Empowering Sales Reps Through Knowledge Discovery and Fusion
+Authors: Kareem Aggour, GE Global Research; Bethany Hoogs, GE Global Research
+
+Paper ID: 470
+Title: iHR: An Online Recruiting System for Xiamen Talent Service Center
+Authors: Lei Li, Florida International University; Wenxing Hong, Xiamen University; Wenfu Pan, Xiamen Talent Service Center; Tao Li, Florida International University
+
+Paper ID: 271
+Title: Exploratory Analysis of Highly Heterogeneous Document Collections
+Authors: Arun Maiya, Institute for Defense Analyses
+
+Paper ID: 53
+Title: Modeling and Probabilistic Reasoning of Population Evacuation During Large-scale Disaster
+Authors: Xuan Song, The University of Tokyo; Quanshi Zhang, The University of Tokyo; Yoshihide Sekimoto, Teerayut Horanont, The Univeristy of Tokyo; Satoshi Ueyama; Ryosuke Shibasaki, The University of Tokyo
+
+Paper ID: 1146
+Title: Towards long-lead forecasting of extreme flood events: a data mining framework for precipitation cluster precursors identification
+Authors: Dawei Wang, UMass Boston; Wei Ding, University of Massachusetts Boston; Kui Yu; Xindong Wu; Ping Chen, University of Houston; David Small, Tufts University; Shafiqul Islam, Tufts University
+
+Paper ID: 700
+Title: Knowledge Discovery from Massive Healthcare Claims Data
+Authors: Varun Chandola, Oak Ridge National Laboratory
+
+Paper ID: 281
+Title: An Integrated Framework for Suicide Risk Prediction
+Authors: Truyen Tran, Deakin University; Dinh Phung, Deakin University; Svetha Venkatesh, Deakin University; Wei Luo, Deakin University; Richard Harvey, Barwon Health; Michael Berk, Deakin University
+
+Paper ID: 973
+Title: Empirical Bayes Model to Combine Signals of Adverse Drug Reactions
+Authors: Rave Harpaz, Stanford University; William DuMouchel; Paea LePendu; Nigam Shah
+
+Paper ID: 780
+Title: Gaussian Multiple Instance Learning Approach for Mapping the Slums of the World Using Very High Resolution Imagery
+Authors: Ranga Vatsavai, Oak Ridge National Labs
+
+Paper ID: 1108
+Title: Dependence and Uncertainty in Large Experiments: An Evaluation of Bootstrap Methods
+Authors: Eytan Bakshy, Facebook; Dean Eckles, Facebook
+
+Paper ID: 998
+Title: Predictive Model Performance: Online and Offline Evaluations
+Authors: Jeonghee Yi; Ye Chen, Microsoft; Jie Li, Microsoft; Swaraj Sett, Microsoft; Tak Yan, Microsoft; Jeonghee Yi, Microsoft
+
+Paper ID: 1075
+Title: Online Controlled Experiments at Large Scale
+Authors: Ron Kohavi, Microsoft; Alex Deng, Microsoft; Brian Frasca, Microsoft; Toby Walker, Microsoft; Ya Xu, Microsoft; Nils Pohlmann, Microsoft
+
+Paper ID: 756
+Title: Using Co-visitation Networks For Classifying Non-Intentional Traffic
+Authors: Ori Stitelman, M6d; Claudia Perlich, M6D; Brian Dalessandro, m6d; Rod Hook, m6d; Troy Raeder, Media6Degrees; Foster Provost, NYU
+
+Paper ID: 1279
+Title: Dynamic Memory Allocation Policies for Postings in Real-Time Twitter Search
+Authors: Nima Asadi, Jimmy Lin, University of Maryland; Michael Busch
+
+Paper ID: 247
+Title: Mining for Geographically Disperse Communities in Social Networks by Leveraging Distance Modularity
+Authors: Paulo Shakarian, US Military Academy; Patrick Roos; Devon Callahan; Cory Kirk
+
+Paper ID: 930
+Title: Experience from Hosting a Corporate Prediction Market: Benefits beyond the Forecasts
+Authors: Thomas Montgomery, Ford Motor Company; Paul Stieg, Ford Motor Company; Michael Cavaretta, Ford Motor Company; Paul Moraal, Ford Motor Company
+
+Paper ID: 547
+Title: Heat Pump Detection from Coarse Grained Smart Meter Data with Positive and Unlabeled Learning
+Authors: Hongliang Fei, IBM T.J. Watson Research; Younghun Kim, IBM Research; Sambit Sahu, IBM Research; Millind Naphade, IBM Research
+
+Paper ID: 242
+Title: Analysis of Advanced Meter Infrastructure Data of Water Consumption in Apartment Buildings
+Authors: Einat Kermany, IBM; Hagai Michaelis, Arad Technologies; Dorit Baras, IBM; Hanna Mazzawi, IBM; Yehuda Naveh, IBM
+
+Paper ID: 590
+Title: A data mining driven risk profiling method for road asset management
+Authors: Daniel Emerson, Queensland University of Technology; Richi Nayak, Queensland University of Technology; Justin Weligamage, Road asset management consultant
+
+Paper ID: 190
+Title: Improving Quality Control by Early Prediction of Manufacturing Outcomes
+Authors: Sholom Weiss, IBM Research; Amit Dhurandhar, IBM TJ Watson; Robert Baseman, IBM Research
+
+Paper ID: 51
+Title: U-Air: When Urban Air Quality Inference Meets Big Data
+Authors: Yu Zheng, Microsoft; Furui Liu, Microsoft Research Asia; Hsun-Ping Hsieh, Microsoft Research Asia
+
+Paper ID: 769
+Title: An Integrated Framework for Optimizing Automatic Monitoring Systems in Large IT Infrastructures
+Authors: Liang Tang, Florida International Univ; Tao Li, Florida International University; Larisa Shwartz, IBM Research; Florian Pinel, IBM Research; Genady Grabarnik, St. John's University
+
+Paper ID: 960
+Title: Detecting Insider Threats in a Real Corporate Database of Computer Usage Activities
+Authors: Ted Senator, SAIC; Henry Goldberg, SAIC; Alex Memory,; William Young, SAIC; Bradley Rees,; Robert Pierce, SAIC; Danel Huang, SAIC; Matthew Reardon, SAIC; David Bader, Ga Tech; Edmond Chow, Ga Tech; Irfan Essa, Georgia Institute of Technology; Joshua Jones, Ga Tech; Vinay Bettadapura, Georgia Institute of Technology; Duen Horng Chau, Georgia Institute of Technology; Oded Green, Ga Tech; Oguz Kaya, Ga Tech; Anita Zakrzewska, Ga Tech; Erica Briscoe, GTRI; Rudolph Mappus IV, GTRI; Robert McColl, GTRI; Lora Weiss, GTRI; Thomas Dietterich, Oregon State University; Alan Fern, Oregon State University; Weng-Keen Wong, Oregon State University; Shubhomoy Das, Oregon State University; Andrew Emmott, Oregon State University; Jed Irvine, Oregon State University; Jay-Yoon Lee, CMU; Danai Koutra, Carnegie Mellon University; Christos Faloutsos, CMU; Daniel Corkill, University of Massachusetts; Lisa Friedland, University of Massachusetts; Amanda Gentzel, University of Massachusetts; David Jensen, Univ of Massachusetts Amherst
+
+Paper ID: 825
+Title: Efficiently Rewriting Large Multimedia Application Execution Traces with few Event Sequences
+Authors: Christiane Kamdem Kengne, UJF/LIG; Leon Constantin Fopa; alexandre Termier; Noha Ibrahim; Marie-Christine Rousset;Takashi Washio, Osaka University; Miguel Santana
+
+Paper ID: 1128
+Title: Discriminant Malware Distance Learning on Structural Information for Automated Malware Classification
+Authors: Deguang Kong, University of Texas at Arlington; Guanhua Yan, Los Alamos National Laboratory
+
+Paper ID: 702
+Title: A Privacy Preserving Framework for Managing Vehicle Data in Road Pricing Systems
+Authors: Huayu Wu, Institute for Infocomm Research; Wee Siong Ng, Institute for Infocomm Research; Kian-Lee Tan, National University of Singapore; Wei Wu , Institute for Infocomm Research; Shili Xiang, Institute for Infocomm Research; Mingqiang Xue, Institute for Infocomm Research
+
+Paper ID: 483
+Title: Palette Power: Enabling Visual Search through Colors
+Authors: Anurag Bhardwaj, eBay Research Labs; Atish Das Sarma, EBay Research Lab; Wei Di, EBay Research Labs; Raffay Hamid, eBay Research Labs; Robinson Piramuthu, eBay Research Labs; Neel Sundaresan, eBay Research
+
+Paper ID: 416
+Title: A Unified Search Federation System Based on Online User Feedback
+Authors: Jie Luo, Yahoo! Labs; Sudarshan Lamkhede, Yahoo! Labs
+
+Paper ID: 760
+Title: Scalable Supervised Dimensionality Reduction Using Clustering
+Authors: Troy Raeder, Media6Degrees; Claudia Perlich, M6D; Brian Dalessandro, M6D; Ori Stitelman, M6D; Foster Provost, NYU Stern School of Business
+
+Paper ID: 473
+Title: Ad Click Prediction: a View from the Trenches
+Authors: H. Brendan McMahan;l Gary Holt, Google, Inc.; D Sculley, Google
+
+Paper ID: 546
+Title: Why People Hate Your App -- Making Sense of User Feedback in a Mobile App Store
+Authors: Bin Fu, Carnegie Mellon University; Jialiu Lin, Carnegie Mellon University; Lei Li, UC Berkeley; Christos Faloutsos, CMU; Jason Hong, Carnegie Mellon University; Norman Sadeh-Koniecpol, Carnegie Mellon University
+

@@ -1,0 +1,43 @@
+{% extends "layout.html" %}
+{% block links %}
+<span id="logged_in_name"></span> &nbsp;
+<a class="button mobile-nav" href="#">Menu</a>
+<a class="button navitem" href="/{{conf}}/papers">My Papers</a>
+<a class="button navitem" href="/{{conf}}/schedule">My Schedule</a>
+<a class="button navitem" href="/logout">Log Out</a>
+{% endblock %}
+{% block content %}   
+<div class="goto-link">
+<a class="button" href="/{{conf}}/papers">Go to My Papers</a>
+<a class="button" href="/{{conf}}/schedule">Go to My Schedule</a>
+</div>	
+
+<!-- Selected Paper -->
+<div id="selected_paper">
+  <!--<h3><span class="gray">Selected Paper</span></h3>-->
+	<table class="form">
+	</table>
+	<br />
+	<h3 class="collapsible-title collapsible" id="similar_papers_toggle" data="similar_papers_container" value=""><span class="arrow arrow-down"></span> People who liked this paper also liked:</h3>
+	<div id="similar_papers_container">
+	<table id="similar_papers" class="paper-container">		
+	</table>
+	</div>
+
+</div>  <!-- selected paper -->
+
+{% endblock %}
+
+{% block javascript %} 
+
+<script type="text/javascript">
+$(document).ready(function(){
+	$("#logged_in_name").html(localStorage.getItem('login_name'))
+    load_paper()
+    bind_events()
+    log('selected_paper')
+        
+});
+</script>
+<script type="text/javascript" src="/static/javascript/confer.js"></script>
+{% endblock %}

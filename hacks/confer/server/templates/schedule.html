@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block links %}
+<span id="logged_in_name"></span> &nbsp;
+<a class="button mobile-nav" href="#">Menu</a>
+<a class="button navitem" href="/">Home</a>
+<a class="button navitem" href="/{{conf}}/papers">My Papers</a>
+<a class="button active navitem" href="/{{conf}}/schedule">My Schedule</a>
+<a class="button navitem" href="/logout">Log Out</a>
+{% endblock %}
+{% block content %}   
+
+<div class="blurb">
+Tag sessions and papers you want to see and get updated recommendations on the fly. Use your likes, recommendations, and other filtering options to discover your personal schedule.
+</div>
+<div class="goto-link">
+<a class="button" href="/{{conf}}/papers">Go to My Papers</a>
+</div>	
+<!--  Schedule -->
+<div id="schedule">	
+<div id="filters">
+<table id="filter_schedule">
+</table>
+</div>
+<br />
+<br />
+<div class="search-container">
+  <label id="search_label">Search:</label>
+  <input type="text" id="search_session" placeholder="Enter session or paper titles, authors, or keywords" class="search-box"></input>&nbsp;&nbsp;
+  <span class="button" id="search_sessions_btn">Search</span>
+  <div id="search-results">Showing <span class="count">all</span> sessions</div>
+</div>
+
+
+<div id="program">
+</div> <!-- program -->
+
+</div> <!-- schedule -->
+
+{% endblock %}
+
+{% block javascript %} 
+
+<!-- Javascript -->
+<script type="text/javascript">
+    $(document).ready(function(){
+        $("#logged_in_name").html(localStorage.getItem('login_name'))
+        populate_filters()
+        populate_schedule()
+        setup_filters()
+        bind_events()
+        log('schedule')
+    });
+</script>
+<script type="text/javascript" src="/static/javascript/confer.js"></script>
+{% endblock %}

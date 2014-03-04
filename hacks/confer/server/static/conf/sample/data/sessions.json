@@ -1,0 +1,26 @@
+sessions={
+"tutorial01": {
+    "s_title": "This is session title 1",
+    "submissions": [
+      "tut01"
+    ]
+  },
+"tutorial02": {
+    "s_title": "Session title 2",
+    "submissions": [
+      "tut02"
+    ]
+  },
+"tutorial03": {
+    "s_title": "Session title 3",
+    "submissions": [
+      "tut03"
+    ]
+  },
+"tutorial04": {
+    "s_title": "Half-day Tutorial: The Cluster Hypothesis",
+    "submissions": [
+      "tut04"
+    ]
+  },
+}

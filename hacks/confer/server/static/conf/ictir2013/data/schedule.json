@@ -1,0 +1,207 @@
+schedule=[
+  {
+    "date": "29\/09\/2013",
+    "slots": [
+	  
+      {
+        "sessions": [
+          {
+            "session": "tutorial01",
+            "room": "22.0.11"
+          },
+
+          {
+            "session": "tutorial02",
+            "room": "23.0.49"
+          }
+        ],
+        "slot_class": "morning1 morning2",
+        "slot_id": "Sunday2",
+        "time": "09:30-13:30"
+      },
+	  
+      {
+        "sessions": [
+          {
+            "session": "tutorial03",
+            "room": "22.0.11"
+          },
+          {
+            "session": "tutorial04",
+            "room": "23.0.49"
+          }
+        ],
+        "slot_class": "afternoon1 afternoon2",
+        "slot_id": "Sunday4",
+        "time": "14:30-18:30"
+      }
+    ],
+    "day": "Sunday"
+  },
+  {
+    "date": "30\/09\/2013",
+    "slots": [
+        
+       {
+	     "sessions": [
+          {
+            "session": "keynote01",
+            "room": "22.0.11"
+          }
+        ],
+        "slot_class": "morning1",
+        "slot_id": "Monday1",
+        "time": "09:30-11:00"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research1a",
+            "room": "22.0.11"
+          }
+        ],
+        "slot_class": "morning2",
+        "slot_id": "Monday2",
+        "time": "11:30-12:30"
+      },
+	  
+	  {
+	    "sessions": [
+		  {
+		    "session": "research1b",
+			"room": "22.0.11"
+		  }
+		],
+        "slot_class": "afternoon1",
+        "slot_id": "Monday3",
+        "time": "13:30-14:30"			
+	  },
+	  {
+	    "sessions": [
+		  {
+		    "session": "panel1a",
+			"room": "22.0.11"
+		  }
+		],
+        "slot_class": "afternoon2",
+        "slot_id": "Monday4",
+        "time": "15:00-16:30"			
+	  },	
+	  {
+	    "sessions": [
+		  {
+		    "session": "posters",
+			"room": "22.0.11"
+		  }
+		],
+        "slot_class": "afternoon2",
+        "slot_id": "Monday5",
+        "time": "16:30-19:00"			
+	  }  
+    ],
+    "day": "Monday"
+  },
+  {
+    "date": "01\/10\/2013",
+    "slots": [
+ 
+       {
+	     "sessions": [
+          {
+            "session": "keynote02",
+            "room": "22.0.11"
+          }
+        ],
+        "slot_class": "morning1",
+        "slot_id": "Tuesday1",
+        "time": "09:30-11:00"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research2a",
+            "room": "22.0.11"
+          }
+        ],
+        "slot_class": "morning2",
+        "slot_id": "Tuesday2",
+        "time": "11:30-12:30"
+      },
+	  
+	  {
+	    "sessions": [
+		  {
+		    "session": "research2b",
+			"room": "22.0.11"
+		  }
+		],
+        "slot_class": "afternoon1",
+        "slot_id": "Tuesday4",
+        "time": "13:30-14:30"			
+	  },
+	  {
+	    "sessions": [
+		  {
+		    "session": "research2c",
+			"room": "22.0.11"
+		  }
+		],
+        "slot_class": "afternoon2",
+        "slot_id": "Tuesday5",
+        "time": "15:00-16:00"			
+	  }
+    ],
+    "day": "Tuesday"
+  },
+  {
+    "date": "02\/10\/2013",
+    "slots": [
+       {
+	     "sessions": [
+          {
+            "session": "keynote03",
+            "room": "22.0.11"
+          }
+        ],
+        "slot_class": "morning1",
+        "slot_id": "Wednesday1",
+        "time": "09:30-11:00"
+      },
+      {
+        "sessions": [
+          {
+            "session": "research3a",
+            "room": "22.0.11"
+          }
+        ],
+        "slot_class": "morning2",
+        "slot_id": "Wednesday2",
+        "time": "11:30-13:00"
+      },
+	  
+	  {
+	    "sessions": [
+		  {
+		    "session": "research3b",
+			"room": "22.0.11"
+		  }
+		],
+        "slot_class": "afternoon1",
+        "slot_id": "Wednesday4",
+        "time": "14:00-15:20"			
+	  },
+	  {
+	    "sessions": [
+		  {
+		    "session": "closing",
+			"room": "22.0.11"
+		  }
+		],
+        "slot_class": "afternoon2",
+        "slot_id": "Wednesday5",
+        "time": "15:00-16:00"			
+	  }
+    ],
+    "day": "Wednesday"
+  }    
+]

@@ -1,0 +1,102 @@
+<!DOCTYPE HTML>
+<!--
+@author: Anant Bhardwaj
+@date: Feb 12, 2012
+
+Confer Template Layout
+-->
+{% block html %}
+<html>
+{% endblock %}
+<head>
+<title>Confer</title>
+<meta charset="utf-8">
+
+<meta name="HandheldFriendly" content="true" />
+<meta name="viewport" content="initial-scale=1.0 user-scalable=no" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<link rel="stylesheet" type="text/css" href="/static/css/confer.css" />
+<link href='http://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+<link href="/static/css/third-party/jquery-ui.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="/static/javascript/third-party/jquery.min.js"></script>	
+<script type="text/javascript" src="/static/javascript/third-party/jquery-ui.js"></script>
+{% block static %}
+<script type="text/javascript" src="/static/conf/{{conf}}/data/papers.json"></script>
+<script type="text/javascript" src="/static/conf/{{conf}}/data/sessions.json"></script>
+<script type="text/javascript" src="/static/conf/{{conf}}/data/schedule.json"></script>
+<script type="text/javascript" src="/static/conf/{{conf}}/data/filters.json"></script>
+<script type="text/javascript" src="/static/conf/{{conf}}/data/offline_recs.json"></script>
+{% endblock %}
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style>
+#headlink-left{
+  position:absolute;
+  /*top: 0.7em;*/
+  top:0.2em;
+  left:0;
+  color: #F6F6F6;
+  background-image: url({% block logo %}/static/conf/{{conf}}/logo/logo.png {% endblock %});
+  background-size: 8em 3.7em;
+  background-repeat: no-repeat;
+}
+</style>
+</head>
+<body>
+<div id="header">
+	<div id="wrap">
+    {% block headlink-left %}
+		<span id="headlink-left">
+			<a id="logo" href="/{{conf}}/"></a>
+		</span>
+    {% endblock %}
+		<span id="headlink-right">
+      {% block links %}
+			<span id="logged_in_name"></span> &nbsp;
+      <a class="button mobile-nav" href="#">Menu</a>
+			<a class="button active navitem" href="/home">My Papers</a>
+			<a class="button navitem" href="/schedule">My Schedule</a>
+			<a class="button navitem" href="/logout">Log Out</a>
+      {% endblock %}
+		</span>
+	</div>
+</div>
+
+<div id="page">
+<div id="content">
+{% block content %}
+{% endblock %}
+{% block credits %}
+<div class="credit">
+  Problems or comments? <a href="mailto:confer@csail.mit.edu">confer@csail.mit.edu</a><br/>
+  Brought to you by <a href="http://people.csail.mit.edu/anantb/" target="_blank">Anant Bhardwaj</a>, <a href="http://groups.csail.mit.edu/haystack/" target="_blank">MIT Haystack Group</a>, and <a href="http://db.csail.mit.edu/" target="_blank">MIT Database Group</a>
+</div>
+{% endblock %}
+
+
+{% block extra %}
+<!---  Mod  -->
+<div class="modal">
+    <div class="message">loading...</div>
+</div>
+<div class="alert">
+    <div class="message"></div>
+</div>
+</div>
+</div>
+{% endblock %}
+{% block javascript %}
+{% endblock %}
+
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-41950128-1']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+</body>
+</html>

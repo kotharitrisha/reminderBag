@@ -1,0 +1,55 @@
+{% extends "layout.html" %}
+{% block html %}
+<html>
+{% endblock %}
+{% block static %}
+{% endblock %}
+{% block headlink-left %}
+<span id="headlink-left">
+    <a id="logo" href="/">Confer</a>
+</span>
+{% endblock %}
+{% block links %}
+{% endblock %}
+
+{% block content %} 
+<style>
+#headlink-left{
+}
+</style>
+
+<div class="blurb">
+    <br />
+    Confer helps you build a personal schedule for conference you are attending. It helps you decide where to spend your precious time by providing social recommendations based on your interests.
+    <br />
+    <br />
+</div>
+
+<div id="home">
+    <h3 class="collapsible-title collapsible">Recently Added Conferences</h3>
+	<div id="conf_container">
+		<table id="conferences" class="conference-container">
+            {% for conf in conferences %}
+            <tr class="clickable">
+                <td class="metadata">
+                    <a href="/{{conf.unique_name}}/papers">
+                    <span class="cover-icon link" style="background-image:url(/static/conf/{{conf.unique_name}}/logo/cover.png);"></span>
+                    </a>
+                </td>
+                <td class="content">
+                <ul>
+                    <li><h3><span class="link"><a href="/{{conf.unique_name}}/papers">{{conf.title}}</a></span></h3></li>
+                    <li> <span class="info-box">{{conf.start_date}} - {{conf.end_date}}</span> <span class="info-box">{{conf.location}}</span></li>
+                    <li class="abstract">{{conf.blurb}}</li>
+                </ul>
+                <br/>
+                <a href="/{{conf.unique_name}}/papers" class="conf-button">Browse</a>
+                </td>
+            </tr>
+            {% endfor %}
+		</table>
+	</div>
+<br />
+<br />
+</div>
+{% endblock %}
